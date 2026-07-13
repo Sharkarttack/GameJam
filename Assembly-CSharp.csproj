@@ -50,7 +50,9 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Scripts/InteractableObject.cs" />
+    <Compile Include="Assets/Scripts/Escena2/CariciasManagerEscena2.cs" />
     <Compile Include="Assets/Scripts/Escena2/TargetManagerEscena2.cs" />
+    <Compile Include="Assets/Scripts/Escena2/PopUpCariciasEscena2.cs" />
     <Compile Include="Assets/Scripts/Escena2/CatchManagerEscena2.cs" />
     <Compile Include="Assets/Scripts/Escena 1/CamaEscena1.cs" />
   </ItemGroup>

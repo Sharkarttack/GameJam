@@ -4,20 +4,25 @@ public class TargetManagerEscena2 : InteractableObject
 {
     [SerializeField] private float timeToMove;
     [SerializeField] private Transform[] spawnPoints;
+    [SerializeField] private CariciasManagerEscena2 cariciasManager;
     private float time = 0;
 
     void Update()
     {
-        time += Time.deltaTime;
-        if (time >= timeToMove)
+        if (!cariciasManager.MIMOS)
         {
-            time = 0;
-            move();
+            time += Time.deltaTime;
+            if (time >= timeToMove)
+            {
+                time = 0;
+                move();
+            }
         }
+
     }
     private Vector2 RandomPosition()
     {
-        int randNum = Random.Range(0,spawnPoints.Length);
+        int randNum = Random.Range(0, spawnPoints.Length);
         return spawnPoints[randNum].position;
     }
     private void move()
@@ -27,6 +32,8 @@ public class TargetManagerEscena2 : InteractableObject
 
     public override void OnInteract()
     {
-        print("interacted");
+        
+        cariciasManager.startMimos();
+        this.GetComponent<Collider2D>().enabled = false;
     }
 }
