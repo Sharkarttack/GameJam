@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/oriolcortes/Desktop/GameJam/Packages/manifest.json
+    m_FilePath: /Users/oriolcortes/Desktop/Fork/GameJam/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639195332340000000
-    m_Hash: 3967220747
+      ticks: 639195491720000000
+    m_Hash: 1126879547
   m_LockFileStatus:
-    m_FilePath: /Users/oriolcortes/Desktop/GameJam/Packages/packages-lock.json
+    m_FilePath: /Users/oriolcortes/Desktop/Fork/GameJam/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639195332580000000
-    m_Hash: 4283023085
+      ticks: 639195491870000000
+    m_Hash: 1760045790
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/oriolcortes/Desktop/GameJam/Packages
-m_EditorVersion: 6000.3.17f1 (cf0352b38e81)
+m_ProjectPath: /Users/oriolcortes/Desktop/Fork/GameJam/Packages
+m_EditorVersion: 6000.3.2f1 (a9779f353c9b)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@13.0.5
+- packageId: com.unity.2d.animation@13.0.2
   testable: 0
   isDirectDependency: 1
-  version: 13.0.5
+  version: 13.0.2
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.animation@5d1ab6c077e2
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.animation@3c53dae92956
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -202,12 +202,15 @@ m_ResolvedPackages:
     - 15.1.0
     - 16.0.0
     compatible:
+    - 13.0.2
+    - 13.0.3
+    - 13.0.4
     - 13.0.5
     recommended: 13.0.5
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -218,9 +221,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -228,7 +231,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -238,7 +241,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -269,16 +272,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639136608614960000
+  datePublishedTicks: 638990587840330000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@13.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 1c0d005509ddec9deb2799abc968db66924c087e
+    revision: 8bf1079cdd627cb76fad4a3267f28d8890fcd5db
     path: 
   unityLifecycle:
-    version: 13.0.5
+    version: 13.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -289,51 +292,18 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fix label selection reset when clearing
-    filter in Sprite Library Editor. (UUM-133437)\n- Fix the ? button in the IKManager2D
-    inspector points to an Invalid link. (UUM-131299)\n- Fix the issue that the internal
-    class CullingManager is available in AddComponent. (UUM-131877)\n- Fix the missing
-    documentation link of CCD Solver 2D Component. (UUM-131875)\n- Fix the missing
-    documentation link of Fabrik Solver 2D Component. (UUM-131879)\n- Fix the missing
-    documentation link of Limb Solver 2D Component. (UUM-131891)\n- Uses readable
-    \"Sprite Renderer\" in the help box of Sprite Skin. (UUM-131888)\n- Do not show
-    Sprite Library Editor''s save confirmation when applying from the Inspector;
-    Editor is reset from disk like when selection changes. (DANB-1090)\n- Fix \"Save
-    Changes Failed - Index was out of range\" when closing a tab with Discard in
-    Sprite Library Editor while labels were selected in Grid view. (UUM-134472)\n-
-    Fix UI layout in 2D Animation Asset Upgrader when the window is docked. (UUM-134464)\n-
-    Fix sprite bones deformed when enabling/disabling GameObjects in the Player by
-    running RemoveTransformsIfNull after RemoveTransformsByIds so cached transform
-    indices stay valid. (UUM-134629)\n- Fix draw call fluctuation and sprite flicker
-    by avoiding AABB reset for culled Sprite Skins; deformable buffer release is
-    now handled by the batch API. (UUM-132924)\n- Align foldout name and triangle
-    in the Category tab in the Sprite Library Editor. (UUM-134471)\n- Fix \"To start
-    creating categories..\" text overlapping Categories title and + button when Sprite
-    Library Editor is docked and resized. (UUM-134468)\n- Fix Sprite Swap overlay
-    text overlapping buttons when docked in dynamic panel and resized. (UUM-130909)\n-
-    Fix Sprite Resolver component shows built-in Sprite Asset icon instead of the
-    actual Sprite. (UUM-132705)\n- Fix Skinning Editor right-overlay layout after
-    Editor BaseField / label metric changes: content-sized `PopupWindow` form rows
-    and panel heights instead of fixed `max-height` / pixel heights. (UUM-138628)\n\n###
-    Changed\n- Align online documentation URLs: package docs to @13.0; Unity Manual/Script
-    Reference links to Unity 6000.3."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Fixed\n- Fix chain length in FABRIK and CCD IK
+    Solvers to not exceed the number of connected bones. (DANB-1119)\n- Prevent overlap
+    between label and object field, and ellipsize long names (DANB-1154)\n- Ask whether
+    to save when Editor Theme or Editor Font changes and there are unsaved changes
+    in Sprite Library Editor (DANB-1165)\n- Fix bone drag and drop to preserve skeleton-wide
+    order in Visibility window. (DANB-1120)"}'
   assetStore:
     productId: 
-  fingerprint: 5d1ab6c077e280b8e48244a02bc9cd8d7af63d42
+  fingerprint: 3c53dae9295646dd95f73b885ea361caab35fbd4
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 13.0.5
+    minimumPackageVersion: 13.0.2
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -341,12 +311,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.aseprite@3.0.2
+- packageId: com.unity.2d.aseprite@3.0.1
   testable: 0
   isDirectDependency: 1
-  version: 3.0.2
+  version: 3.0.1
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.aseprite@20edb5643ab5
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.aseprite@809e3a168ff7
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -400,12 +370,13 @@ m_ResolvedPackages:
     - 5.0.3
     - 6.0.0
     compatible:
+    - 3.0.1
     - 3.0.2
     recommended: 3.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -416,9 +387,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -426,7 +397,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -436,7 +407,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -476,16 +447,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639136608583070000
+  datePublishedTicks: 638956665229940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 1c0d005509ddec9deb2799abc968db66924c087e
+    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
     path: 
   unityLifecycle:
-    version: 3.0.2
+    version: 3.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -496,32 +467,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Reduced the size of the buttons in the
-    Export asset window. (UUM-132863)\n- Fixed an issue where the editor would display
-    errors when reverting changes to the Import Mode in the inspector. (UUM-132892)\n-
-    Fixed an issue where changes to the Pivot Alignment in the inspector could not
-    be reverted. (UUM-132868)\n- Fixed an issue where new lines and white spaces
-    would create unusable animation events. (UUM-133339)\n- Fixed an issue where
-    you could not change an Aseprite file containing tile data to AnimatedSprite
-    import mode. (UUM-135150)\n\n### Changed\n- Align online documentation URLs:
-    package docs to @3.0; Unity Manual/Script Reference links to Unity 6000.3."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Changed\n- Switched the internals from using custom
+    common package, to make use of the 2D Common package."}'
   assetStore:
     productId: 
-  fingerprint: 20edb5643ab59e7b1107541ab66691c4d5282cc8
+  fingerprint: 809e3a168ff77eff802b4b24c10cf6254618245a
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.2
+    minimumPackageVersion: 3.0.1
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -529,12 +482,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.psdimporter@12.0.2
+- packageId: com.unity.2d.psdimporter@12.0.1
   testable: 0
   isDirectDependency: 1
-  version: 12.0.2
+  version: 12.0.1
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.psdimporter@f207d91d598d
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.psdimporter@9abe0f7cac7e
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -654,21 +607,22 @@ m_ResolvedPackages:
     - 14.0.3
     - 15.0.0
     compatible:
+    - 12.0.1
     - 12.0.2
     recommended: 12.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -676,7 +630,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -686,7 +640,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -724,16 +678,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639136608565680000
+  datePublishedTicks: 638990587854760000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@12.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 1c0d005509ddec9deb2799abc968db66924c087e
+    revision: 8bf1079cdd627cb76fad4a3267f28d8890fcd5db
     path: 
   unityLifecycle:
-    version: 12.0.2
+    version: 12.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -744,27 +698,15 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Package Manager Samples section title
-    now displays \"PSD Importer\" consistently. (UUM-135396)\n\n### Changed\n- Align
-    online documentation URLs: package docs to @12.0; Unity Manual/Script Reference
-    links to Unity 6000.3."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Changed\n- Exclude empty layers from import.\n\n###
+    Fixed\n- Fix null reference exception occurs when importing psd without visible
+    layers. (DANB-1155)\n- Correct layer mask position relative to its layer. (DANB-1177)"}'
   assetStore:
     productId: 
-  fingerprint: f207d91d598dbf43af8d25dec9312e71ece7531a
+  fingerprint: 9abe0f7cac7effda42d93c33a6c35134cca1bee3
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 12.0.2
+    minimumPackageVersion: 12.0.1
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -777,7 +719,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.sprite@3cb28db060cf
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.sprite@82f01c8c75ca
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -839,20 +781,9 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 3cb28db060cf0a2ceda53bc19357d424311f2dcd
+  fingerprint: 82f01c8c75ca2d707990e8dc249b71ab7d1aa33e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -868,7 +799,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 13.0.0
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.spriteshape@0738bab11647
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.spriteshape@0738bab11647
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -1003,9 +934,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -1013,7 +944,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -1023,7 +954,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -1085,17 +1016,6 @@ m_ResolvedPackages:
     Shape Profile Asset icon which was low quality and blurry in Project window\n-
     Use EditorUtility.EntityIdToObject instead of EditorUtility.InstanceIDToObject
     which is deprecated. (DANB-1042)"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 0738bab116473980325be8cdb7c3c42ab6961778
@@ -1114,7 +1034,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.tilemap@7538f229e26c
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.tilemap@28bd01071fd5
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -1195,20 +1115,9 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 7538f229e26cca5a2b11faa5f9eb5efd0448782d
+  fingerprint: 28bd01071fd506c5971fc0dec78c4d32c10f1024
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -1219,12 +1128,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.tilemap.extras@6.0.2
+- packageId: com.unity.2d.tilemap.extras@6.0.1
   testable: 0
   isDirectDependency: 1
-  version: 6.0.2
+  version: 6.0.1
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.tilemap.extras@4c5cdf9da5f3
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.tilemap.extras@3dde84bf3867
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -1312,6 +1221,7 @@ m_ResolvedPackages:
     - 8.88.0-exp.2
     - 9.0.0
     compatible:
+    - 6.0.1
     - 6.0.2
     recommended: 6.0.2
     deprecated: []
@@ -1358,16 +1268,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639136608547320000
+  datePublishedTicks: 638956665244800000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@6.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 1c0d005509ddec9deb2799abc968db66924c087e
+    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
     path: 
   unityLifecycle:
-    version: 6.0.2
+    version: 6.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1378,26 +1288,19 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- [AutoTile] Change uss for extra right
-    margin for listview entries\n\n### Fixed\n- [AutoTileEditor] Fix error when cancelling
-    loading of AutoTileTemplate"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Added\n- [AutoTile] Add Has Physics Shape property
+    if Collider Type is set to Sprite. AutoTile will set Collider Type to Sprite
+    if the Sprite has physics shape and set Collider Type to None if the Sprite has
+    no physics shape.\n\n### Fixed\n- [RuleTileEditor] Fix exception thrown when
+    a Rule is added to an empty RuleTile, removed and added again.\n- [AutoTileEditor]
+    Fix minimum texture scale size when texture is smaller than 256 pixels\n- [AutoTileEditor]
+    Fix texture display when texture is removed from AutoTile"}'
   assetStore:
     productId: 
-  fingerprint: 4c5cdf9da5f3ef00df0d8d9132e8919b00f6a87b
+  fingerprint: 3dde84bf38677b4165ad5f568b353d4ba942d63c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 6.0.2
+    minimumPackageVersion: 6.0.1
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -1405,12 +1308,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.tooling@1.0.3
+- packageId: com.unity.2d.tooling@1.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.3
+  version: 1.0.0
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.tooling@127d960d4dc1
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.tooling@55ff0338cdce
   assetPath: Packages/com.unity.2d.tooling
   name: com.unity.2d.tooling
   displayName: 2D Tooling
@@ -1436,19 +1339,22 @@ m_ResolvedPackages:
     - 3.0.1
     - 4.0.0
     compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
     - 1.0.3
     recommended: 1.0.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 12.0.3
+    version: 12.0.1
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -1456,7 +1362,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -1466,7 +1372,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -1495,16 +1401,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639136608530500000
+  datePublishedTicks: 638956665254340000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tooling@1.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 1c0d005509ddec9deb2799abc968db66924c087e
+    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
     path: 
   unityLifecycle:
-    version: 1.0.3
+    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1515,27 +1421,16 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"# Fixed\n- Fixed sprite atlas variant is not reporting
-    correctly in Sprite Atlas report. Sprite atlas variant will now show as a child
-    node of the main atlas. (DANB-1065)\n- Fixed sprites does not show which page
-    they are in All Sprite Atlas report."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed All Sprite Atlas report not showing
+    correct total memory size. (DANB-1066)\n- Fixed All Sprite Atlas reporting columns
+    data not showing sensible data.\n- Fixed redundant revert button on report settings.\n-
+    Fixed obsolete usage of API."}'
   assetStore:
     productId: 
-  fingerprint: 127d960d4dc1acd0ae6b3ec1a420e93840919c74
+  fingerprint: 55ff0338cdce2a73e936a6c2bad0fb9581330a6f
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.0.3
+    minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
@@ -1543,12 +1438,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collab-proxy@2.12.4
+- packageId: com.unity.collab-proxy@2.10.2
   testable: 0
   isDirectDependency: 1
-  version: 2.12.4
+  version: 2.10.2
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.collab-proxy@0b1559bcd34e
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -1654,8 +1549,12 @@ m_ResolvedPackages:
     - 2.11.4
     - 2.12.4
     compatible:
+    - 2.10.2
+    - 2.11.2
+    - 2.11.3
+    - 2.11.4
     - 2.12.4
-    recommended: 2.12.4
+    recommended: 2.10.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -1690,16 +1589,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639093537468220000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.12/manual/index.html
+  datePublishedTicks: 638981091640640000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.10/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 4d24fbc0581e7fec760c9c8eef7517e1e1195f9e
+    revision: 53b710e518c9aaa47eeb059db533c0588530450f
     path: 
   unityLifecycle:
-    version: 2.12.4
+    version: 2.10.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1710,48 +1609,17 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added a new Branch Explorer to visualize
-    and navigate branches.\n- Added \"Add to Source Control\" and \"Undo Changes\"
-    actions for folders from the Project browser and Inspector.\n- Added support
-    in the merge view to partially apply a shelve.\n- Added persistence for all splitter
-    positions across window reloads and sessions.\n- Added the F2 keyboard shortcut
-    to rename branches and labels.\n\n### Changed\n\n- Improved text field focus
-    behavior across dialogs for more consistent keyboard workflows.\n- Improved the
-    empty state in the Pending Changes view.\n- Delayed workspace creation when opening
-    projects from the Unity Hub.\n- Updated new project initialization to perform
-    a full initial checkin.\n- Prevented connecting a project to a different organization
-    by mistake.\n- Added changeset and label icons to the status bar.\n- Updated
-    the macOS hide shortcut to Cmd+Shift+H.\n\n### Fixed\n\n- Fixed the labels context
-    menu not opening when the table is empty.\n- Fixed the branches context menu
-    not opening when the table is empty.\n- Fixed the status bar turning gray after
-    exiting Play Mode.\n- Fixed issues in the changeset-by-changeset diff from the
-    branches view.\n- Fixed blurry icons in the Explore Repositories window.\n- Fixed
-    the New Branch button failing when the current selection is a changeset or label.\n-
-    Fixed validation messages alignment in the Unity Version Control window.\n- Fixed
-    the Checkin dialog not auto-focusing the comment field.\n- Fixed button capitalization
-    in the Unity Version Control window to match Unity standards.\n- Fixed and localized
-    the Checkin dialog progress label.\n- Fixed a NullReferenceException when opening
-    history from a branch diff.\n- Fixed a potential NullReferenceException in the
-    changeset-by-changeset diff panel.\n- Fixed a layout exception when right-clicking
-    Pending Changes in the side bar.\n- Fixed the Unity Version Control window during
-    Create Workspace to refresh without requiring mouse movement."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed the Toolbar button icon that was
+    not visible for uncontrolled projects for Editor older than Unity 6.3.\n- Fixed
+    the Pending changes view that was refreshed on window activation for no reason.\n-
+    Fixed Library folder that was sometimes wrongly added to source control on a
+    new project created from the Hub."}'
   assetStore:
     productId: 
-  fingerprint: 0b1559bcd34e3fee21f770e54e68e58e80eae214
+  fingerprint: 3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.12.4
+    minimumPackageVersion: 2.10.2
     minimumUnityVersion: 2021.3.0f1
   compliance:
     status: 0
@@ -1759,12 +1627,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.rider@3.0.40
+- packageId: com.unity.ide.rider@3.0.38
   testable: 0
   isDirectDependency: 1
-  version: 3.0.40
+  version: 3.0.38
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.ide.rider@e4950c6d131b
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1831,6 +1699,8 @@ m_ResolvedPackages:
     - 3.0.39
     - 3.0.40
     compatible:
+    - 3.0.38
+    - 3.0.39
     - 3.0.40
     recommended: 3.0.40
     deprecated:
@@ -1857,16 +1727,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639117612635980000
+  datePublishedTicks: 638938045127600000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ac65c165e102e0e3a75f1448b8578d29ba0eaf58
+    revision: 8a49d81ce92f334a07e3b71a8847b2f60dc12287
     path: 
   unityLifecycle:
-    version: 3.0.40
+    version: 3.0.38
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1877,25 +1747,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Normalise paths for additional files for roslyn,
-    fixes RIDER-136169 Roslyn process gets stuck"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"- fix a regression, introduced in 3.0.37. New files
+    are not added in the project."}'
   assetStore:
     productId: 
-  fingerprint: e4950c6d131b925f19dd0b34bdf800110120f8de
+  fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.40
+    minimumPackageVersion: 3.0.38
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -1903,12 +1762,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.visualstudio@2.0.26
+- packageId: com.unity.ide.visualstudio@2.0.25
   testable: 0
   isDirectDependency: 1
-  version: 2.0.26
+  version: 2.0.25
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.ide.visualstudio@74aa435fc4bb
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1953,13 +1812,14 @@ m_ResolvedPackages:
     - 2.0.26
     - 2.0.27
     compatible:
+    - 2.0.25
     - 2.0.26
     - 2.0.27
     recommended: 2.0.27
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.1.31
   resolvedDependencies:
   - name: com.unity.test-framework
     version: 1.6.0
@@ -1985,16 +1845,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639014773899080000
+  datePublishedTicks: 638954434425230000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: a52ff32ff9e8cf43be6597597939ef63126ab463
+    revision: 3765e21a94ea1100e4b377121dbf771c3cbd874a
     path: 
   unityLifecycle:
-    version: 2.0.26
+    version: 2.0.25
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2005,26 +1865,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Fix handling of asset-pipeline refresh-mode
-    setting.\n\nProject generation:\n\n- Add `EnableOnDemandExcludedFolderLoading`
-    capability when generating SDK-Style project."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"Internal:\n\n- Fixes for release validation and release
+    process"}'
   assetStore:
     productId: 
-  fingerprint: a99d56dec63ffb3a911a5a9bce9b77ba862a601c
+  fingerprint: 74aa435fc4bb41890f400130ec80f271d1292fd4
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.26
+    minimumPackageVersion: 2.0.25
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -2032,12 +1880,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.inputsystem@1.19.0
+- packageId: com.unity.inputsystem@1.17.0
   testable: 0
   isDirectDependency: 1
-  version: 1.19.0
+  version: 1.17.0
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.inputsystem@21a28c3a6c83
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.inputsystem@02433b2481ab
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -2115,8 +1963,10 @@ m_ResolvedPackages:
     - 1.18.0
     - 1.19.0
     compatible:
+    - 1.17.0
+    - 1.18.0
     - 1.19.0
-    recommended: 1.19.0
+    recommended: 1.17.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -2158,16 +2008,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639075089033030000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.19/manual/index.html
+  datePublishedTicks: 638997348789550000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: ca8d898356596a91bda6505e506cc1a4bb3a9fa6
+    revision: 672e42ce4f76a7086fb09e24d5236e5f71336bd6
     path: 
   unityLifecycle:
-    version: 1.19.0
+    version: 1.17.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2178,37 +2028,25 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n\n- Reverted the deprecation of the USE_IMGUI_EDITOR_FOR_ASSETS
-    feature option (ISX-2397).\n- Updated `m_ActionAssetInstanceID` in PlayerInputEditor.cs
-    to use `EntityId` instead of `InstanceID`.\n- Consecutive wildcard characters
-    (''*'') used in input control-paths are now collapsed into a single wildcard
-    when multiple consecutive wildcard characters are present.\n\n### Fixed\n\n-
-    Fixed the `Auto-Save` toggle button with some extra pixels to align the text
-    in the window better.\n- Align title font size with toolbar style in `Input Action`
-    window.\n- Updated Action Properties headers to use colors consistent with GameObject
-    component headers.\n- Fixed misaligned Virtual Cursor when changing resolution
-    [ISXB-1119](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1119)\n-
-    Fixed an issue where `IndexOutOfRangeException` was thrown from `InputManagerStateMonitors.AddStateChangeMonitor`
-    when attempting to enable an action map from within an `InputAction.cancel` callback
-    when using control schemes. (ISXB-1767).\n\n### Added\n\n- Added `keywords` for
-    InputSystem project settings window."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Changed\n- Project-Wide Input Actions support can
+    no longer be compiled out (removed the `UNITY_INPUT_SYSTEM_PROJECT_WIDE_ACTIONS`
+    define). (ISX-2397)\n- Removed code that had to do with Unity versions older
+    than Unity 2022.3 LTS. (ISX-2396)\n- Auto-save on focus lost can no longer be
+    compiled out (ISX-2397)\n- Deprecated the `USE_IMGUI_EDITOR_FOR_ASSETS` feature
+    option (ISX-2397)\n\n### Fixed\n- An issue where a UITK MouseEvent was triggered
+    when changing from Scene View to Game View in the Editor has been fixed. [ISXB-1671](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-1671)\n-
+    Fix documentation error in file AndroidGameController.cs mentioning a wrong controller.
+    [DOCATT-9806]\n- Deferred auto-registration of processors, interactions and composite
+    binding types referenced by `InputActionAsset`\n  to only happen once when an
+    unresolved type reference is found in an action definition. This avoids reflective\n 
+    type loading from assemblies for all cases where the Input System is not extended.
+    (ISXB-1766)."}'
   assetStore:
     productId: 
-  fingerprint: 21a28c3a6c83903a93cf15d7d0714b773c50fdf6
+  fingerprint: 02433b2481abc5c0063956fdc211f3d8c777447f
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.19.0
+    minimumPackageVersion: 1.17.0
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -2221,7 +2059,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -2299,17 +2137,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: f01f4ba8d00afa4e957bddf0fcd1612a564401ff
@@ -2328,7 +2155,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.3.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.render-pipelines.universal@56fb5facb13e
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.render-pipelines.universal@66e99ffa09c7
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -2361,7 +2188,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -2373,7 +2200,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -2381,7 +2208,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
@@ -2435,20 +2262,9 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 56fb5facb13e24b5bd503253767caeea72226c9c
+  fingerprint: 66e99ffa09c79634ca0cee3b85e3b9f6cdf88c0e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -2464,7 +2280,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.test-framework@ecf40a72f8c1
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2536,20 +2352,9 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
-  fingerprint: ecf40a72f8c1c547313b13904fdcb64f1c114e00
+  fingerprint: 0b7a23ab2e1d74441a5afdffa63f417929756957
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.6.0
@@ -2560,12 +2365,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.timeline@1.8.12
+- packageId: com.unity.timeline@1.8.9
   testable: 0
   isDirectDependency: 1
-  version: 1.8.12
+  version: 1.8.9
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.timeline@8cd8509afae5
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2673,6 +2478,9 @@ m_ResolvedPackages:
     - 1.8.11
     - 1.8.12
     compatible:
+    - 1.8.9
+    - 1.8.10
+    - 1.8.11
     - 1.8.12
     recommended: 1.8.12
     deprecated: []
@@ -2715,16 +2523,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639096350260850000
+  datePublishedTicks: 638900049118440000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: ebb3d9b85ccc1dba717b152782ebb2c5251ac79e
+    revision: 5d309c1b02350ecb7093a4001d66afb1a238fc50
     path: 
   unityLifecycle:
-    version: 1.8.12
+    version: 1.8.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2735,26 +2543,26 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fix double clicking on TimelineAsset
-    or console log throwing an error on 6000.0 (UUM-136605)"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Added\n\n- Added profiler markers for Timeline
+    graph creation and evaluation. (ATL-2108)\n\n### Fixed\n\n- Fix custom implementation
+    of AnimationTrack not being able to record and not having access to AnimationTrack
+    actions through the context menu. (TB-333)\n- Fix an issue where custom Tracks
+    and Clips Editors code is marked as unused in Rider even when they are associated
+    with a specific Clip or Track Asset. (TB-334)\n- Fix and issue where a clip Inspector
+    with an embedded playable asset inspector can leak when selection changes with
+    2 inspector windows opened. (TB-324)\n- Fix Editing Track label while Track is
+    selected makes text lose the white color. (TB-336)\n- Maximizing and Restoring
+    the Timeline Window will now keep editing the previous Timeline (TB-289)\n- Added
+    a warning when trying to add a custom track whose class name would not match
+    the file name. (TB-329)\n- Fixed an issue where timeline duration incorrectly
+    included tracks muted via hierarchy. (TB-326)"}'
   assetStore:
     productId: 
-  fingerprint: 8cd8509afae5d2655af4657a214db1b563c28425
+  fingerprint: 6b9e48457ddb4f64813d77fd77efc79a8f3102ae
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.12
-    minimumUnityVersion: 2022.3
+    minimumPackageVersion: 1.8.9
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
@@ -2766,20 +2574,20 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.ugui@05e8dec4ac02
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.ugui@52e65280e89e
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
-  displayName: uGUI
+  displayName: Unity UI
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
-  description: "uGUI (Unity UI) is a set of tools for developing user interfaces
-    for games and applications. It is a GameObject-based UI system that uses Components
-    and the Game View to arrange, position, and style user interfaces. \u200B You
-    cannot use Unity UI to create or change user interfaces in the Unity Editor."
+  description: "Unity UI is a set of tools for developing user interfaces for games
+    and applications. It is a GameObject-based UI system that uses Components and
+    the Game View to arrange, position, and style user interfaces. \u200B You cannot
+    use Unity UI to create or change user interfaces in the Unity Editor."
   errors: []
   versions:
     all:
@@ -2844,20 +2652,9 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 05e8dec4ac02bfad5f92b1877d7685e930bad8b6
+  fingerprint: 52e65280e89ee09a5b287dc793f9464bcd213b41
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -2868,12 +2665,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.visualscripting@1.9.11
+- packageId: com.unity.visualscripting@1.9.9
   testable: 0
   isDirectDependency: 1
-  version: 1.9.11
+  version: 1.9.9
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.visualscripting@8bed5ad90189
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.visualscripting@191c0d7e3b69
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -2882,7 +2679,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -2927,6 +2724,8 @@ m_ResolvedPackages:
     - 1.9.10
     - 1.9.11
     compatible:
+    - 1.9.9
+    - 1.9.10
     - 1.9.11
     recommended: 1.9.11
     deprecated:
@@ -2961,16 +2760,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639089344800930000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.visualscripting@1.9/manual/index.html
+  datePublishedTicks: 638965671307960000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: e45076a785db38aa81ea919d98739fa8bcb6cdbc
+    revision: 2bb93a09becf00b2343d1c670afbf3836f170f55
     path: 
   unityLifecycle:
-    version: 1.9.11
+    version: 1.9.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2981,26 +2780,15 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Replaced remaining internal use of InstanceIDs
-    with the new EntityId (Unity 6.4+).\n- Replaced internal calls to the deprecated
-    `FindObjectsByType<T>(FindObjectsSortMode)` method (Unity 6.4+)."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed broken links to example codes in
+    API documentation.\n\n### Changed\n- Adds alt texts to images in documentation
+    to increase accessibility for screen readers."}'
   assetStore:
     productId: 
-  fingerprint: 8bed5ad901895f10b7d0e524c4738cab14cef692
+  fingerprint: 191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.11
+    minimumPackageVersion: 1.9.9
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -3013,7 +2801,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.accessibility
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -3072,17 +2860,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3101,7 +2878,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.adaptiveperformance
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -3166,17 +2943,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3195,7 +2961,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.ai
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -3254,17 +3020,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3283,7 +3038,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.androidjni
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -3341,17 +3096,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3370,7 +3114,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.animation
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -3429,17 +3173,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3458,7 +3191,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.assetbundle
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -3517,17 +3250,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3546,7 +3268,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.audio
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -3605,17 +3327,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3634,7 +3345,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.cloth
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3697,17 +3408,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3726,7 +3426,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.director
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3793,17 +3493,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3822,7 +3511,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.imageconversion
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3881,17 +3570,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3910,7 +3588,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.imgui
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3969,17 +3647,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3998,7 +3665,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.jsonserialize
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -4057,17 +3724,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4086,7 +3742,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.particlesystem
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -4145,17 +3801,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4174,7 +3819,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.physics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -4233,17 +3878,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4262,7 +3896,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.physics2d
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -4321,17 +3955,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4350,7 +3973,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.screencapture
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -4413,17 +4036,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4442,7 +4054,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.terrain
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -4501,17 +4113,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4530,7 +4131,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.terrainphysics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -4597,17 +4198,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4626,7 +4216,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.tilemap
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -4688,17 +4278,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4717,7 +4296,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.ui
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -4776,17 +4355,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4805,7 +4373,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.uielements
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -4884,17 +4452,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4913,7 +4470,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.umbra
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4972,17 +4529,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5001,7 +4547,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.unityanalytics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -5067,17 +4613,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5096,7 +4631,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.unitywebrequest
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -5155,17 +4690,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5184,7 +4708,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -5251,17 +4775,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5280,7 +4793,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.unitywebrequestaudio
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -5347,17 +4860,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5376,7 +4878,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.unitywebrequesttexture
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -5443,17 +4945,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5472,7 +4963,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.unitywebrequestwww
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -5555,17 +5046,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5584,7 +5064,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.vectorgraphics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -5662,17 +5142,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5691,7 +5160,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.vehicles
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -5754,17 +5223,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5783,7 +5241,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.video
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -5854,17 +5312,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5883,7 +5330,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.vr
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -5957,17 +5404,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -5986,7 +5422,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.wind
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -6045,17 +5481,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -6074,7 +5499,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.xr
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -6145,17 +5570,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -6174,7 +5588,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.subsystems
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -6237,17 +5651,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -6266,7 +5669,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.modules.hierarchycore
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -6325,17 +5728,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -6354,7 +5746,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.ext.nunit@d8c07649098d
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -6416,17 +5808,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
@@ -6445,7 +5826,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.render-pipelines.core@0cc60402ef53
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.render-pipelines.core@ce86d16dfe9d
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -6487,7 +5868,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6499,7 +5880,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -6507,7 +5888,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
@@ -6549,20 +5930,9 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0cc60402ef53a74f4ff249661f22690ccf6289c5
+  fingerprint: ce86d16dfe9d627973eff1e9329caf16c648363c
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -6578,7 +5948,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.shadergraph@4892040ec25e
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.shadergraph@3cfe1d1f3f8c
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -6610,7 +5980,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6622,7 +5992,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -6630,7 +6000,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
@@ -6674,20 +6044,9 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 4892040ec25e62fcb1d8efa1610cd35ef5964463
+  fingerprint: 3cfe1d1f3f8cb2a422448449ea422fa1a226fded
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.3.0
@@ -6703,7 +6062,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -6729,7 +6088,7 @@ m_ResolvedPackages:
   - name: com.unity.render-pipelines.core
     version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6741,7 +6100,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -6749,7 +6108,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
@@ -6791,17 +6150,6 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 8dc1aab4af1d718781689a36ed5231a35ad1a524
@@ -6815,12 +6163,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.common@12.0.3
+- packageId: com.unity.2d.common@12.0.1
   testable: 0
   isDirectDependency: 0
-  version: 12.0.3
+  version: 12.0.1
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.2d.common@2af7c9b44b5c
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.2d.common@51e9484895c4
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6914,6 +6262,8 @@ m_ResolvedPackages:
     - 14.0.1
     - 15.0.0
     compatible:
+    - 12.0.1
+    - 12.0.2
     - 12.0.3
     recommended: 12.0.3
     deprecated: []
@@ -6934,7 +6284,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -6942,7 +6292,7 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 2.6.6
+    version: 2.6.2
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -6952,7 +6302,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -6982,16 +6332,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639136608519590000
+  datePublishedTicks: 638956665186900000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@12.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 1c0d005509ddec9deb2799abc968db66924c087e
+    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
     path: 
   unityLifecycle:
-    version: 12.0.3
+    version: 12.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7002,28 +6352,15 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fix the issue where the Scene and Sprite
-    Editor views fail to update correctly when an edge is deleted to split geometry.
-    (UUM-134656)\n\n### Added\n- Allow retrieving Sprite Atlas asset GUID as SpriteID
-    can be duplicated."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Added\n- Added internal access for the Aseprite
+    Importer.\n- Added retrieving of texture storage size."}'
   assetStore:
     productId: 
-  fingerprint: 2af7c9b44b5c0734073acb3fd3efc0a050c7b62e
+  fingerprint: 51e9484895c4b91b39650e3ee34a014a63860080
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 12.0.3
-    minimumUnityVersion: 6000.3.0a2
+    minimumPackageVersion: 12.0.1
+    minimumUnityVersion: 6000.3.0a1
   compliance:
     status: 0
     violation:
@@ -7035,7 +6372,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.3
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.mathematics@19a9377c4ffa
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.mathematics@19a9377c4ffa
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -7117,17 +6454,6 @@ m_ResolvedPackages:
     builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
     and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
     Updated minimum editor version to 2021.3"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: 19a9377c4ffa59370edad3e6a34e4445529badde
@@ -7141,12 +6467,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collections@2.6.6
+- packageId: com.unity.collections@2.6.2
   testable: 0
   isDirectDependency: 0
-  version: 2.6.6
+  version: 2.6.2
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.collections@9796e5ee0d9e
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.collections@aea9d3bd5e19
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -7245,24 +6571,28 @@ m_ResolvedPackages:
     - 2.6.6
     - 2.6.7
     compatible:
+    - 2.6.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
     - 2.6.6
     - 2.6.7
     recommended: 2.6.7
     deprecated: []
   dependencies:
   - name: com.unity.burst
-    version: 1.8.28
+    version: 1.8.23
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.test-framework
     version: 1.4.6
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
+    version: 1.11.5
   - name: com.unity.test-framework.performance
     version: 3.0.3
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.29
+    version: 1.8.26
   - name: com.unity.mathematics
     version: 1.3.3
   - name: com.unity.modules.jsonserialize
@@ -7276,7 +6606,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.11.6
   - name: com.unity.test-framework.performance
-    version: 3.5.0
+    version: 3.2.0
   keywords:
   - dots
   - collections
@@ -7296,16 +6626,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639126363706650000
+  datePublishedTicks: 638950336031850000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.6/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/dots.git
-    revision: 233b7df164f9829fad832775f3875c0379155347
+    revision: 34a49c9a68f70872c0a108dbef6cdea306d6b593
     path: 
   unityLifecycle:
-    version: 2.6.6
+    version: 2.6.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7316,27 +6646,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n\n* Updated the `com.unity.burst` dependency
-    to version `1.8.28`\n\n\n### Fixed\n\n* NativeBitArray and UnsafeBitArray now
-    correctly find contiguous sequences of 0-bits up to 6 bits in length.\n\n###
-    Security"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Changed\n\n* Updated Burst dependency to version
+    1.8.23."}'
   assetStore:
     productId: 
-  fingerprint: 9796e5ee0d9ef6933fcf11656c00048965f09994
+  fingerprint: aea9d3bd5e19f2a90fc3a39919974a5f3613a159
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.6.6
+    minimumPackageVersion: 2.6.2
     minimumUnityVersion: 2022.3.20f1
   compliance:
     status: 0
@@ -7349,7 +6666,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.4
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.searcher@d45a78918735
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.searcher@d45a78918735
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -7428,17 +6745,6 @@ m_ResolvedPackages:
     revision: 
   upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
     Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: d45a78918735dd5b1de2247c6e3567c60aa24115
@@ -7452,12 +6758,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.burst@1.8.29
+- packageId: com.unity.burst@1.8.26
   testable: 0
   isDirectDependency: 0
-  version: 1.8.29
+  version: 1.8.26
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.burst@6bb9aca3ef38
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.burst@21aa83e7fd8f
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -7617,6 +6923,9 @@ m_ResolvedPackages:
     - 1.8.28
     - 1.8.29
     compatible:
+    - 1.8.26
+    - 1.8.27
+    - 1.8.28
     - 1.8.29
     recommended: 1.8.29
     deprecated: []
@@ -7646,16 +6955,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639104670059890000
+  datePublishedTicks: 638996703344130000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: ec0b605f793ec0a6605b712855ffbf1b97dedd08
+    revision: 78a5cce909c0faf2e0a4f984fdf94e27f8b0745b
     path: 
   unityLifecycle:
-    version: 1.8.29
+    version: 1.8.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7666,30 +6975,25 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed that types implementing interfaces
-    that define methods with the same name (like `IFoo.Run()` and `IBar.Run()`) would
-    cause Burst to always only pick one of them when resolving calls to either.\n-
-    Fixed cases where Burst could be stripped from player builds with high managed
-    stripping enabled when Burst is only used through the `[BurstCompile]` attribute.\n\n###
-    Changed\n- Updated Burst''s internal version of Cecil."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Added\n- Enable Burst on Web Platform\n- Enabled
+    Apple Hardened Runtime for Burst runtime libraries.\n- Burst now supports `typeof`
+    comparison - e.g. `if (typeof(int) == typeof(T))`. `GetType()` remains invalid
+    in Burst-compiled code, and all other members on `Type` instances remain invalid,
+    but equality (`==`) and inequality (`!=`) are now supported for types created
+    via `typeof`. These comparisons compile to compile-time constants.\n\n### Removed\n\n###
+    Changed\n\n### Fixed\n- An issue where the rendering in the inspector would break
+    down on Very large listings.\n- Fixed Windows runtime executable digital signatures,
+    eliminating any false-positive antivirus hits.\n- [PLAT-15945](https://jira.unity3d.com/browse/PLAT-15945):
+    Embedded Linux target triplets for Editor version 6.4\n- Fix crash during inlining
+    optimisation. Ensure inlines are removed when they are no longer valid.\n\n###
+    Known Issues\n\n### Purpose"}'
   assetStore:
     productId: 
-  fingerprint: 6bb9aca3ef382e98bd0c1e4ab5fc74380c16095f
+  fingerprint: 21aa83e7fd8fcc79eafc5f662d434afb183153d6
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.29
-    minimumUnityVersion: 2022.3
+    minimumPackageVersion: 1.8.26
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
@@ -7701,7 +7005,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.6
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7777,17 +7081,6 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"* This is a verified release of the com.unity.nuget.mono-cecil
     with embedded dlls of mono-cecil\n* Updated Cecil to 0.11.5 with a grafted patch
     from this bug fix PR (https://github.com/jbevain/cecil/pull/914)"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
   assetStore:
     productId: 
   fingerprint: ecb9724e46fff855c46a4f37f0a3377a3cfffc06
@@ -7801,12 +7094,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.test-framework.performance@3.5.0
+- packageId: com.unity.test-framework.performance@3.2.0
   testable: 0
   isDirectDependency: 0
-  version: 3.5.0
+  version: 3.2.0
   source: 1
-  resolvedPath: /Users/oriolcortes/Desktop/GameJam/Library/PackageCache/com.unity.test-framework.performance@8b56083ec0f0
+  resolvedPath: /Users/oriolcortes/Desktop/Fork/GameJam/Library/PackageCache/com.unity.test-framework.performance@0840f58e4562
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -7881,8 +7174,14 @@ m_ResolvedPackages:
     - 3.4.2
     - 3.5.0
     compatible:
+    - 3.2.0
+    - 3.2.1
+    - 3.3.0
+    - 3.4.0
+    - 3.4.1
+    - 3.4.2
     - 3.5.0
-    recommended: 3.5.0
+    recommended: 3.2.1
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -7916,16 +7215,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639143827266910000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.5/manual/index.html
+  datePublishedTicks: 638936561440790000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git
-    revision: 79f7dede4061a184a8ed18da85a20e4f7de4d305
+    revision: fe7ade132131103e7608be564921ab8de35fd8e4
     path: 
   unityLifecycle:
-    version: 3.5.0
+    version: 3.2.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7936,27 +7235,13 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- A performance regression Threshold property
-    for the Performance attribute. It is only reported when the value is greater
-    than 0.0 and is to be used by the performance reporting endpoint to compare against
-    historical data."}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
+  upmReserved: '{"changelog":"### Added\n\n- Improved render threading mode reporting"}'
   assetStore:
     productId: 
-  fingerprint: 8b56083ec0f03c33121bea5c806c91b0fa2f2b69
+  fingerprint: 0840f58e45624f7677679a0f8b6a5137689e607f
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.5.0
+    minimumPackageVersion: 3.2.0
     minimumUnityVersion: 2020.3
   compliance:
     status: 0
@@ -7964,4 +7249,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 156350f5e3b63bcc5d45ec01b9430e3351b3a4ca
+m_BuiltInPackagesHash: 46fb22065bf3d297b1be7dce9a081c0af7d241f8

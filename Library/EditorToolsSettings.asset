@@ -16,10 +16,10 @@ MonoBehaviour:
   - groupType: UnityEngine.Rendering.Universal.DecalProjector, Unity.RenderPipelines.Universal.Runtime,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     collapsed: 0
-  - groupType: UnityEngine.Rendering.Universal.ShadowCaster2D, Unity.RenderPipelines.Universal.2D.Runtime,
+  - groupType: UnityEngine.Rendering.Universal.Light2D, Unity.RenderPipelines.Universal.2D.Runtime,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     collapsed: 0
-  - groupType: UnityEngine.Rendering.Universal.Light2D, Unity.RenderPipelines.Universal.2D.Runtime,
+  - groupType: UnityEngine.Rendering.Universal.ShadowCaster2D, Unity.RenderPipelines.Universal.2D.Runtime,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     collapsed: 0
   - groupType: UnityEngine.Light, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
@@ -70,9 +70,6 @@ MonoBehaviour:
   - groupType: UnityEngine.HingeJoint2D, UnityEngine.Physics2DModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
     collapsed: 0
-  - groupType: UnityEngine.LightProbeProxyVolume, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    collapsed: 0
   - groupType: UnityEngine.ParticleSystem, UnityEngine.ParticleSystemModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
     collapsed: 0
@@ -82,10 +79,9 @@ MonoBehaviour:
   - groupType: UnityEngine.LightProbeGroup, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
     collapsed: 0
+  - groupType: UnityEngine.LightProbeProxyVolume, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    collapsed: 0
   - groupType: UnityEngine.LineRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
     collapsed: 0
-  m_LastPivotModeTypeString: UnityEditor.CenterPivotMode, UnityEditor.CoreModule,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_LastPivotRotationTypeString: UnityEditor.LocalPivotRotation, UnityEditor.CoreModule,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
