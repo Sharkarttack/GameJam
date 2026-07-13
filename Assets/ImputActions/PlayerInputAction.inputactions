@@ -121,6 +121,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "MiniGame2",
+            "id": "879c30c4-da83-4eff-a81f-13390dc48c04",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "0b626b18-7950-46c9-9901-ba62dcec1fe3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f506ccaf-e498-4022-8fe9-0b1026342a33",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []

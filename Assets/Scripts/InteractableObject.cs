@@ -9,4 +9,6 @@ public abstract class InteractableObject : MonoBehaviour
     /// Metodo que deben reescribir todas las clases que hereden la clase InteractableObject
     /// </summary>
     public abstract void OnInteract();
+
+    public bool isSelected;
 }

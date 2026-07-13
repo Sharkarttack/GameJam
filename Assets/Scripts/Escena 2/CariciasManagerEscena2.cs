@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Gestiona el minijuego de caricias de la escena 2.
@@ -15,12 +16,15 @@ public class CariciasManagerEscena2 : MonoBehaviour
     [SerializeField] private TargetManagerEscena2 targetManagerEscena;
     // Contador de caricias realizadas
     private int mimos_hechos;
+    [SerializeField] private int numMimosToComfianza;
+    private int numMimosToComfianza_actuales;
 
     /// <summary>
     /// Inicia el minijuego
     /// </summary>
     public void startMimos()
     {
+        numMimosToComfianza_actuales++;
         // Reinicia el contador de caricias
         mimos_hechos = 0;
         // Muestra la interfaz del minijuego
@@ -50,6 +54,11 @@ public class CariciasManagerEscena2 : MonoBehaviour
     /// </summary>
     private void endMimos()
     {
+        if (numMimosToComfianza_actuales >= numMimosToComfianza)
+        {
+            SceneManager.LoadScene("Escena 3");
+            return;
+        }
         // Reinicia el contador
         mimos_hechos = 0;
         // Oculta la interfaz del minijuego
