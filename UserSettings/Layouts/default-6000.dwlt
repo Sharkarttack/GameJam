@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1686
     height: 973
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 4201
+  controlID: 29
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 4202
+  controlID: 30
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 4102
+  controlID: 119
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -246,8 +246,8 @@ MonoBehaviour:
     y: 0
     width: 305
     height: 568.5
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 4169
+  controlID: 69
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -324,8 +324,8 @@ MonoBehaviour:
     y: 0
     width: 557.5
     height: 567.5
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -2191,12 +2191,11 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 41988
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -18932
-      - m_Data: -17718
       - m_Data: -1314
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -2272,7 +2271,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2282,7 +2281,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: 56
   m_LastProjectPath: /Users/oriolcortes/Desktop/Fork/GameJam
   m_LockTracker:
@@ -2291,18 +2290,18 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 49032
+    - m_Data: 48734
     m_LastClickedID:
-      m_Data: 49032
+      m_Data: 48734
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48704
-    - m_Data: 48706
-    - m_Data: 48708
-    - m_Data: 48710
-    - m_Data: 48712
-    - m_Data: 48714
-    - m_Data: 49028
+    - m_Data: 48724
+    - m_Data: 48726
+    - m_Data: 48728
+    - m_Data: 48730
+    - m_Data: 48732
+    - m_Data: 48734
+    - m_Data: 49032
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2335,12 +2334,12 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48704
-    - m_Data: 48706
-    - m_Data: 48708
-    - m_Data: 48710
-    - m_Data: 48712
-    - m_Data: 48714
+    - m_Data: 48724
+    - m_Data: 48726
+    - m_Data: 48728
+    - m_Data: 48730
+    - m_Data: 48732
+    - m_Data: 48734
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2367,8 +2366,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 41988
+    m_LastClickedInstanceID: 41988
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 72930
