@@ -1,4 +1,6 @@
+using Unity.VectorGraphics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MesaState : MonoBehaviour
 {
@@ -9,7 +11,7 @@ public class MesaState : MonoBehaviour
         esquinasColocadas++;
         if (esquinasColocadas >= 4)
         {
-            print("MiniGame completed");
+            SceneManager.LoadScene("Escena 5");
         }
     }
 }

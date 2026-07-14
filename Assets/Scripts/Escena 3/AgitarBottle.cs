@@ -47,6 +47,7 @@ public class AgitarBottle : MonoBehaviour
         if (!interactableObject.isSelected)
         {
             lastMousePos = Mouse.current.position.ReadValue();
+            shakeCount = 0;
         }
         else if (bottleState.agua && bottleState.polvos && isShaking())
         {

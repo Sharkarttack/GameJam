@@ -57,13 +57,18 @@
     <Compile Include="Assets/Scripts/Escena 4/PosicionarEsquinas.cs" />
     <Compile Include="Assets/Scripts/Escena 3/InteractableBottle.cs" />
     <Compile Include="Assets/Scripts/Escena 4/MesaState.cs" />
+    <Compile Include="Assets/Scripts/Escena 5/Papelera.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Scripts/Escena 3/InteractablePolvos.cs" />
     <Compile Include="Assets/Scripts/Escena 2/TargetManagerEscena2.cs" />
+    <Compile Include="Assets/Scripts/Escena 5/InteractablePanal.cs" />
+    <Compile Include="Assets/Scripts/Escena 5/BotonesPanal.cs" />
     <Compile Include="Assets/Scripts/Escena 4/CatchManagerEscena4.cs" />
     <Compile Include="Assets/Scripts/Escena 4/Esquina.cs" />
     <Compile Include="Assets/Scripts/InteractableObject.cs" />
+    <Compile Include="Assets/Scripts/Escena 5/PonerPanal.cs" />
     <Compile Include="Assets/Scripts/Escena 3/CatchManagerEscena3.cs" />
+    <Compile Include="Assets/Scripts/Escena 5/CatchManagerEscena5.cs" />
     <Compile Include="Assets/Scripts/Escena 1/CamaEscena1.cs" />
   </ItemGroup>
   <ItemGroup>
