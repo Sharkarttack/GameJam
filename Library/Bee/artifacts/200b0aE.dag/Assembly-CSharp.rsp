@@ -479,6 +479,10 @@
 "Assets/Scripts/Escena 3/GrifoFeature.cs"
 "Assets/Scripts/Escena 3/InteractableBottle.cs"
 "Assets/Scripts/Escena 3/InteractablePolvos.cs"
+"Assets/Scripts/Escena 4/CatchManagerEscena4.cs"
+"Assets/Scripts/Escena 4/Esquina.cs"
+"Assets/Scripts/Escena 4/MesaState.cs"
+"Assets/Scripts/Escena 4/PosicionarEsquinas.cs"
 "Assets/Scripts/InteractableObject.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0

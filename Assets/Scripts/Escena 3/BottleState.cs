@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary> 
 /// Almacena y gestiona el estado del biberón durante el minijuego. 
@@ -41,6 +42,6 @@ public class BottleState : MonoBehaviour
     /// </summary>
     public void endMiniGame()
     {
-        print("miniGame ended");
+        SceneManager.LoadScene("Escena 4");
     }
 }
