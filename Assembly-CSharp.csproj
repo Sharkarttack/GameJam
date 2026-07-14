@@ -48,28 +48,29 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Escena 2/CariciasManagerEscena2.cs" />
-    <Compile Include="Assets/Scripts/Escena 3/AgitarBottle.cs" />
-    <Compile Include="Assets/Scripts/Escena 3/BottleState.cs" />
-    <Compile Include="Assets/Scripts/Escena 2/PopUpCariciasEscena2.cs" />
-    <Compile Include="Assets/Scripts/Escena 2/CatchManagerEscena2.cs" />
-    <Compile Include="Assets/Scripts/Escena 3/GrifoFeature.cs" />
-    <Compile Include="Assets/Scripts/Escena 4/PosicionarEsquinas.cs" />
-    <Compile Include="Assets/Scripts/Escena 3/InteractableBottle.cs" />
-    <Compile Include="Assets/Scripts/Escena 4/MesaState.cs" />
-    <Compile Include="Assets/Scripts/Escena 5/Papelera.cs" />
-    <Compile Include="Assets/Scripts/PlayerController.cs" />
-    <Compile Include="Assets/Scripts/Escena 3/InteractablePolvos.cs" />
-    <Compile Include="Assets/Scripts/Escena 2/TargetManagerEscena2.cs" />
-    <Compile Include="Assets/Scripts/Escena 5/InteractablePanal.cs" />
-    <Compile Include="Assets/Scripts/Escena 5/BotonesPanal.cs" />
-    <Compile Include="Assets/Scripts/Escena 4/CatchManagerEscena4.cs" />
-    <Compile Include="Assets/Scripts/Escena 4/Esquina.cs" />
-    <Compile Include="Assets/Scripts/InteractableObject.cs" />
-    <Compile Include="Assets/Scripts/Escena 5/PonerPanal.cs" />
-    <Compile Include="Assets/Scripts/Escena 3/CatchManagerEscena3.cs" />
-    <Compile Include="Assets/Scripts/Escena 5/CatchManagerEscena5.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 1/PopUpCariciasEscena2.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 2/InteractablePolvos.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 4/CatchManagerEscena5.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 3/CatchManagerEscena4.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 1/CatchManagerEscena2.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 4/BotonesPanal.cs" />
+    <Compile Include="Assets/Scripts/Comunes/CinematicManager.cs" />
+    <Compile Include="Assets/Scripts/Comunes/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 3/MesaState.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 1/CariciasManagerEscena2.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 1/TargetManagerEscena2.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 4/Papelera.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 2/GrifoFeature.cs" />
+    <Compile Include="Assets/Scripts/Comunes/InteractableObject.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 2/BottleState.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 4/InteractablePanal.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 3/Esquina.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 2/CatchManagerEscena3.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 3/PosicionarEsquinas.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 2/InteractableBottle.cs" />
     <Compile Include="Assets/Scripts/Escena 1/CamaEscena1.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 4/PonerPanal.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 2/AgitarBottle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
