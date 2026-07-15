@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractablePanal
   isSelected: 0
-  nextScene: 
+  nextScene: Escena 12
   "tipoPa\xF1al": 0
   colocado: 0
   rb: {fileID: 593105990}

@@ -28,7 +28,7 @@ public class CinematicManager : MonoBehaviour
     private IEnumerator prueba()
     {
         print("Start");
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(3f);
         print("Change");
         canChange = true;
     }

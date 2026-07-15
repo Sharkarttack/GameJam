@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd5ee19ffb1284a4983e612d3391abf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CinematicManager
-  nextScene: Escena 8
+  nextScene: Escena 16
 --- !u!4 &129468222
 Transform:
   m_ObjectHideFlags: 0

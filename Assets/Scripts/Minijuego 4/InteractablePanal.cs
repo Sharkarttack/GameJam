@@ -1,6 +1,8 @@
 using System.Collections;
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class InteractablePanal : InteractableObject
 {
@@ -32,7 +34,7 @@ public class InteractablePanal : InteractableObject
         numAtados++;
         if (numAtados >= 2)
         {
-            print("Ended mimigame");
+           SceneManager.LoadScene(nextScene);
         }
     }
 }

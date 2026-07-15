@@ -500,6 +500,10 @@
 "Assets/Scripts/Minijuego 7/Esconderse.cs"
 "Assets/Scripts/Minijuego 7/MouseControllerEscena7.cs"
 "Assets/Scripts/Minijuego 7/Spots.cs"
+"Assets/Scripts/Minijuego 8/Batidora.cs"
+"Assets/Scripts/Minijuego 8/BotonBatidora.cs"
+"Assets/Scripts/Minijuego 8/CatchManagerEscena8.cs"
+"Assets/Scripts/Minijuego 8/IntrusiveThougth.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -5,21 +5,105 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Minijuegos (Templates)/Minijuego 1.unity
+    guid: 1f0abbb12fe7047e7b1f3590b5b1284f
+  - enabled: 0
+    path: Assets/Scenes/Minijuegos (Templates)/Minijuego 2.unity
+    guid: 4f94dc76bede14724b2d00e221aa65f7
+  - enabled: 0
+    path: Assets/Scenes/Minijuegos (Templates)/Minijuego 3.unity
+    guid: 44019b63ea8a542c59504e26e6dd9be8
+  - enabled: 0
+    path: Assets/Scenes/Minijuegos (Templates)/Minijuego 4.unity
+    guid: fa480586fe6084be5b854a31f356fea2
   - enabled: 1
     path: Assets/Scenes/GameCurse/1- Prologo/Escena 1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Minijuegos (Templates)/Minijuego 1.unity
-    guid: 1f0abbb12fe7047e7b1f3590b5b1284f
+    path: Assets/Scenes/GameCurse/1- Prologo/Escena 2.unity
+    guid: 237c0cdbec2614fbb8a849fa56151756
   - enabled: 1
-    path: Assets/Scenes/Minijuegos (Templates)/Minijuego 2.unity
-    guid: 4f94dc76bede14724b2d00e221aa65f7
+    path: Assets/Scenes/GameCurse/1- Prologo/Escena 3.unity
+    guid: 1c4524dde925446db9585084bf2e43b0
   - enabled: 1
-    path: Assets/Scenes/Minijuegos (Templates)/Minijuego 3.unity
-    guid: 44019b63ea8a542c59504e26e6dd9be8
+    path: Assets/Scenes/GameCurse/1- Prologo/Escena 4.unity
+    guid: d768d7c2d11b147f58705d93103c3a7c
   - enabled: 1
-    path: Assets/Scenes/Minijuegos (Templates)/Minijuego 4.unity
-    guid: fa480586fe6084be5b854a31f356fea2
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 5.unity
+    guid: 4815d0b1fb5d14e0eb8ec27efd27fda4
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 6.unity
+    guid: ece6a4583cab54ee98c5439d8b478eb8
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 7.unity
+    guid: f03922bb70342433cbea89bcd9c8f2f5
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 8.unity
+    guid: cd7d3e975aab64a38b427864f03e2982
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 9.unity
+    guid: 2ad70b7f113354a3081f5f793875b3fd
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 10.unity
+    guid: 0c7e69b5b91784155a8072025f6e8b3f
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 11.unity
+    guid: 5cbdd1ac61405419c967b2b9a68d9352
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 12.unity
+    guid: d3766d537906442ddbda937009206569
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 13.unity
+    guid: 58bcc35ae7c374f04ae096916bc3aedf
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 14.unity
+    guid: 1a56f04bc3b5e4bcfa2dd04d03728677
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 15.unity
+    guid: 4bfb52fcafa7b41adb9145e0313225c9
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 16.unity
+    guid: b72ad6253eab54656bc6787d88cfb6f3
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 17.unity
+    guid: 52eac71caee36407f97a7f8fb71c4adf
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 18.unity
+    guid: 8a0cae98a6b1d475a9cb4929bcae880b
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 2/Escena 19.unity
+    guid: 3aa71b42b215943f18390091b718cb55
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 2/Escena 20.unity
+    guid: 7b48a9425836f4220b2745f5687f494d
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 2/Escena 21.unity
+    guid: e1e2e6acf30d74322857f50cc1079fba
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 2/Escena 22.unity
+    guid: 59a7c245b88ac46388eda87d297577f8
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 2/Escena 23.unity
+    guid: 55bef93021b0948399a43d576c4c06d3
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 2/Escena 24.unity
+    guid: 6b4a5bd25ef2142e0a6641c8ef5813b0
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 2/Escena 25.unity
+    guid: 8c707a0d32bd04c08acee6bc11025110
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 3/Escena 26.unity
+    guid: 30f7be3a2cd37436686c5e55fdee4273
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 3/Escena 27.unity
+    guid: b12463ed181e64d6cbbbf823c51f0741
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 3/Escena 28.unity
+    guid: b4f31994c6a6248acbc2be3bc55a61e8
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 3/Escena 29.unity
+    guid: 1ee1727eab92c4bb396be0e8d5d0c11e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

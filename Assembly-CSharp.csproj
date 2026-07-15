@@ -64,6 +64,7 @@
     <Compile Include="Assets/Scripts/Comunes/FianlCamino.cs" />
     <Compile Include="Assets/Scripts/Minijuego 1/CariciasManagerEscena2.cs" />
     <Compile Include="Assets/Scripts/Minijuego 1/TargetManagerEscena2.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 8/BotonBatidora.cs" />
     <Compile Include="Assets/Scripts/Minijuego 4/Papelera.cs" />
     <Compile Include="Assets/Scripts/Minijuego 5/MouseManager.cs" />
     <Compile Include="Assets/Scripts/Minijuego 2/GrifoFeature.cs" />
@@ -73,10 +74,13 @@
     <Compile Include="Assets/Scripts/Minijuego 5/LimpiarSuciedad.cs" />
     <Compile Include="Assets/Scripts/Minijuego 3/Esquina.cs" />
     <Compile Include="Assets/Scripts/Minijuego 2/CatchManagerEscena3.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 8/IntrusiveThougth.cs" />
     <Compile Include="Assets/Scripts/Minijuego 6/Pomo.cs" />
     <Compile Include="Assets/Scripts/Minijuego 7/Spots.cs" />
     <Compile Include="Assets/Scripts/Minijuego 3/PosicionarEsquinas.cs" />
     <Compile Include="Assets/Scripts/Minijuego 2/InteractableBottle.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 8/CatchManagerEscena8.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 8/Batidora.cs" />
     <Compile Include="Assets/Scripts/Escena 1/CamaEscena1.cs" />
     <Compile Include="Assets/Scripts/Minijuego 4/PonerPanal.cs" />
     <Compile Include="Assets/Scripts/Minijuego 2/AgitarBottle.cs" />
