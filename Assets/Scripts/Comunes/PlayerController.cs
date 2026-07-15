@@ -3,6 +3,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private  Animator playerAnimator;
+    
     // Velocidad de movimiento del jugador (configurable desde el Inspector)
     [SerializeField] private float speed;
     // Referencia al Rigidbody2D del jugador para aplicar el movimiento
@@ -28,6 +30,22 @@ public class PlayerController : MonoBehaviour
     {
         // Lee la dirección de entrada (X,Y)
         direction = context.ReadValue<Vector2>();
+        if (direction.y > 0)
+        {
+            playerAnimator.SetInteger("Direction", 1);
+        }
+        else if (direction.y < 0)
+        {
+            playerAnimator.SetInteger("Direction", -1);
+        }
+        else if (direction.x < 0)
+        {
+            playerAnimator.SetInteger("Direction", -2);
+        }
+        else if (direction.x > 0)
+        {
+            playerAnimator.SetInteger("Direction", 2);
+        }
     }
 
     /// <summary>

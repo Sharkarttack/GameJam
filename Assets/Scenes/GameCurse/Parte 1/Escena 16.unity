@@ -426,6 +426,7 @@ GameObject:
   - component: {fileID: 811110182}
   - component: {fileID: 811110185}
   - component: {fileID: 811110184}
+  - component: {fileID: 811110186}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -564,6 +565,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 10ac1999-0ec3-483b-8811-68306b56aaf8
     m_ActionName: 'OpenMove/Interact[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 99ac9fde-de07-41e1-8092-52093559dbf6
+    m_ActionName: 'MiniGame1/Click[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0b626b18-7950-46c9-9901-ba62dcec1fe3
+    m_ActionName: 'MiniGame2/Click[/Mouse/leftButton]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: OpenMove
@@ -608,6 +617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2e51369a42249aa851a0d4a0a520c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  playerAnimator: {fileID: 811110186}
   speed: 5
   rb: {fileID: 811110183}
 --- !u!70 &811110185
@@ -647,6 +657,28 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!95 &811110186
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811110179}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6d181ff546777402689834c6cf344e25, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1359375132
 GameObject:
   m_ObjectHideFlags: 0
