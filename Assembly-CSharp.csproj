@@ -55,9 +55,11 @@
     <Compile Include="Assets/Scripts/Minijuego 1/CatchManagerEscena2.cs" />
     <Compile Include="Assets/Scripts/Minijuego 4/BotonesPanal.cs" />
     <Compile Include="Assets/Scripts/Comunes/CinematicManager.cs" />
+    <Compile Include="Assets/Scripts/Comunes/CamaraSiguiendoPlayer.cs" />
     <Compile Include="Assets/Scripts/Minijuego 6/CatchManagerEscena6.cs" />
     <Compile Include="Assets/Scripts/Comunes/PlayerController.cs" />
     <Compile Include="Assets/Scripts/Minijuego 3/MesaState.cs" />
+    <Compile Include="Assets/Scripts/Comunes/FianlCamino.cs" />
     <Compile Include="Assets/Scripts/Minijuego 1/CariciasManagerEscena2.cs" />
     <Compile Include="Assets/Scripts/Minijuego 1/TargetManagerEscena2.cs" />
     <Compile Include="Assets/Scripts/Minijuego 4/Papelera.cs" />

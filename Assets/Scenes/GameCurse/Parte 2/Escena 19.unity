@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd5ee19ffb1284a4983e612d3391abf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CinematicManager
-  nextScene: Escena 20
+  nextScene: Escena 22
 --- !u!4 &129468222
 Transform:
   m_ObjectHideFlags: 0
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 611992732}
   m_Layer: 0
-  m_Name: Cinematica 10 Parte 2
+  m_Name: Cinematica 10 El bicho se escapa de casa
   m_TagString: Untagged
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
