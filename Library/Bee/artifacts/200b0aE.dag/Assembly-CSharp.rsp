@@ -497,6 +497,9 @@
 "Assets/Scripts/Minijuego 5/MouseManager.cs"
 "Assets/Scripts/Minijuego 6/CatchManagerEscena6.cs"
 "Assets/Scripts/Minijuego 6/Pomo.cs"
+"Assets/Scripts/Minijuego 7/Esconderse.cs"
+"Assets/Scripts/Minijuego 7/MouseControllerEscena7.cs"
+"Assets/Scripts/Minijuego 7/Spots.cs"
 -langversion:9.0
 /deterministic
 /optimize+
