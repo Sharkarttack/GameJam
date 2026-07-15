@@ -1,4 +1,5 @@
 
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
@@ -7,12 +8,14 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class CamaEscena1 : InteractableObject
 {
+    [SerializeField] private string nextScene;
     /// <summary>
     /// Sobrescribe el método de interacción definido en la clase base.
     /// </summary>
     public override void OnInteract()
     {
+        
         // Carga la escena llamada "Escena 2".
-        SceneManager.LoadScene("Escena 2");
+        SceneManager.LoadScene(nextScene);
     }
 }

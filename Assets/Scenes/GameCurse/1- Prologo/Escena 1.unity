@@ -853,6 +853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CamaEscena1
   isSelected: 0
+  nextScene: Escena 2
 --- !u!212 &1620433735
 SpriteRenderer:
   serializedVersion: 2

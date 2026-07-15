@@ -491,6 +491,10 @@
 "Assets/Scripts/Minijuego 4/InteractablePanal.cs"
 "Assets/Scripts/Minijuego 4/Papelera.cs"
 "Assets/Scripts/Minijuego 4/PonerPanal.cs"
+"Assets/Scripts/Minijuego 5/LimpiarSuciedad.cs"
+"Assets/Scripts/Minijuego 5/MouseManager.cs"
+"Assets/Scripts/Minijuego 6/CatchManagerEscena6.cs"
+"Assets/Scripts/Minijuego 6/Pomo.cs"
 -langversion:9.0
 /deterministic
 /optimize+
