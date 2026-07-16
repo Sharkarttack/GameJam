@@ -474,7 +474,6 @@
 "Assets/Scripts/Comunes/InteractableObject.cs"
 "Assets/Scripts/Comunes/MainScene.cs"
 "Assets/Scripts/Comunes/PlayerController.cs"
-"Assets/Scripts/Comunes/SoundManager.cs"
 "Assets/Scripts/Escena 1/CamaEscena1.cs"
 "Assets/Scripts/Menus/MenuButton.cs"
 "Assets/Scripts/Minijuego 1/AbrirPopUp.cs"
@@ -508,6 +507,9 @@
 "Assets/Scripts/Minijuego 8/BotonBatidora.cs"
 "Assets/Scripts/Minijuego 8/CatchManagerEscena8.cs"
 "Assets/Scripts/Minijuego 8/IntrusiveThougth.cs"
+"Assets/Scripts/Music/ClipsManager.cs"
+"Assets/Scripts/Music/MusicaControllerEscenas.cs"
+"Assets/Scripts/Music/SoundManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
