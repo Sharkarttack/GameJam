@@ -98,6 +98,6 @@ public class CariciasManagerEscena2 : MonoBehaviour
         MIMOS = false;
         // Vuelve a activar el collider del objetivo para que pueda
         // volver a interactuarse con él
-        targetManagerEscena.GetComponent<Collider2D>().enabled = true;
+        targetManagerEscena.gameObject.SetActive(true);
     }
 }

@@ -12,6 +12,8 @@ public class TargetManagerEscena2 : InteractableObject
     [SerializeField] private Transform[] spawnPoints;
     // Referencia al gestor del minijuego de caricias
     [SerializeField] private CariciasManagerEscena2 cariciasManager;
+
+    [SerializeField] private GameObject newTarget;
     // Temporizador para controlar cuándo cambiar de posición
     private float time = 0;
 
@@ -62,9 +64,11 @@ public class TargetManagerEscena2 : InteractableObject
     /// </summary>
     public override void OnInteract()
     {
-        // Inicia el minijuego de caricias
+        newTarget.SetActive(true);
+        gameObject.SetActive(false);
+        /* // Inicia el minijuego de caricias
         cariciasManager.startMimos();
         // Desactiva el collider para impedir nuevas interacciones
-        this.GetComponent<Collider2D>().enabled = false;
+        this.GetComponent<Collider2D>().enabled = false; */
     }
 }

@@ -477,6 +477,7 @@
 "Assets/Scripts/Comunes/SoundManager.cs"
 "Assets/Scripts/Escena 1/CamaEscena1.cs"
 "Assets/Scripts/Menus/MenuButton.cs"
+"Assets/Scripts/Minijuego 1/AbrirPopUp.cs"
 "Assets/Scripts/Minijuego 1/CariciasManagerEscena2.cs"
 "Assets/Scripts/Minijuego 1/CatchManagerEscena2.cs"
 "Assets/Scripts/Minijuego 1/PopUpCariciasEscena2.cs"

@@ -54,6 +54,7 @@
     <Compile Include="Assets/Scripts/Minijuego 7/MouseControllerEscena7.cs" />
     <Compile Include="Assets/Scripts/Minijuego 3/CatchManagerEscena4.cs" />
     <Compile Include="Assets/Scripts/Minijuego 1/CatchManagerEscena2.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 1/AbrirPopUp.cs" />
     <Compile Include="Assets/Scripts/Minijuego 4/BotonesPanal.cs" />
     <Compile Include="Assets/Scripts/Comunes/CinematicManager.cs" />
     <Compile Include="Assets/Scripts/Comunes/CamaraSiguiendoPlayer.cs" />
