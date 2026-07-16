@@ -481,7 +481,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7474600171507541349, guid: bcf3aa65715b2469693eb4f7b2b7aab2, type: 3}
   m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b366989b4e440719c389ecd1402adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClipsManager
-  clip: {fileID: 8300000, guid: 0d0d82433dd5845389f283ee96f0bc6e, type: 3}
+  clip: {fileID: 8300000, guid: 8f456d09692044f24a4092e2921c57e1, type: 3}
 --- !u!4 &1464268188
 Transform:
   m_ObjectHideFlags: 0

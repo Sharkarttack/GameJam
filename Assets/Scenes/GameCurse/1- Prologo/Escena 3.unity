@@ -6051,7 +6051,7 @@ MonoBehaviour:
   popUp: {fileID: 1095814261}
   mimos_num: 200
   targetManagerEscena: {fileID: 59155548}
-  numMimosToComfianza: 5
+  numMimosToComfianza: 3
 --- !u!4 &1853047264
 Transform:
   m_ObjectHideFlags: 0
