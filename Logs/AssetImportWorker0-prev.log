@@ -7,9 +7,9 @@ Darwin version:          24.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
-Date:                    2026-07-16T10:46:09Z
+Date:                    2026-07-16T11:45:10Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oriolcortes" at "2026-07-16T10:46:09.108254Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oriolcortes" at "2026-07-16T11:45:10.193261Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49708
+50010
 -licensingIpc
 LicenseClient-oriolcortes
 -job-worker-count
@@ -34,14 +34,6 @@ LicenseClient-oriolcortes
 1
 -name AssetImport
 Successfully changed project path to: /Users/oriolcortes/Desktop/Fork/GameJam
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4217, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.17.4'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-oriolcortes"
-[Licensing::IpcConnector] LicenseClient-oriolcortes channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oriolcortes-6000.3.2" at "2026-07-16T10:46:09.903277Z"
 /Users/oriolcortes/Desktop/Fork/GameJam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -80,7 +72,7 @@ Successfully changed project path to: /Users/oriolcortes/Desktop/Fork/GameJam
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8383023168]  Target information:
 
-Player connection [8383023168]  * "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 662502303 [EditorId] 662502303 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Oriol.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8383023168]  * "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 694001409 [EditorId] 694001409 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Oriol.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8383023168] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8383023168] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -89,13 +81,21 @@ Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6006, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-oriolcortes"
+[Licensing::IpcConnector] LicenseClient-oriolcortes channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oriolcortes-6000.3.2" at "2026-07-16T11:45:10.952439Z"
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -112,56 +112,56 @@ MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              0555f1d4abb24a7a9fcf1c27a70fb47f
-  Correlation Id:          14f02d11170a0a0bbc0d94d0665f0a6d
-  External correlation Id: 966105792860572215
-  Machine Id:              CurnaBNGMbKDr6YEVeG4Vk0Uyn0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-oriolcortes-6000.3.2" (connect: 0.00s, validation: 0.00s, handshake: 0.96s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oriolcortes-6000.3.2-notifications" at "2026-07-16T10:46:10.871818Z"
-[Licensing::Module] Licensing Background thread has ended after 1.76s
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001102 seconds.
-- Loaded All Assemblies, in  0.596 seconds
+Registered in 0.001636 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              0013677b5e3444acb02c8adc5be68be2
+  Correlation Id:          1a22ce6f4b2610b8a011fe512048b923
+  External correlation Id: 8288924257833863845
+  Machine Id:              CurnaBNGMbKDr6YEVeG4Vk0Uyn0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-oriolcortes-6000.3.2" (connect: 0.00s, validation: 0.01s, handshake: 1.49s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oriolcortes-6000.3.2-notifications" at "2026-07-16T11:45:12.454465Z"
+[Licensing::Module] Licensing Background thread has ended after 2.26s
+- Loaded All Assemblies, in  1.021 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.677 seconds
-Domain Reload Profiling: 1275ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  0.929 seconds
+Domain Reload Profiling: 1950ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (253ms)
-		LoadAssemblies (197ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (255ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (248ms)
-			TypeCache.Refresh (246ms)
-				TypeCache.ScanAssembly (224ms)
+		AnalyzeDomain (482ms)
+			TypeCache.Refresh (479ms)
+				TypeCache.ScanAssembly (439ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (678ms)
+	FinalizeReload (930ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (577ms)
+		SetupLoadedEditorAssemblies (809ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (213ms)
+			InitializePlatformSupportModulesInManaged (103ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -177,47 +177,47 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.587 seconds
-Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.709 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.500 seconds
-Domain Reload Profiling: 5090ms
-	BeginReloadAssembly (285ms)
+- Finished resetting the current domain, in  1.903 seconds
+Domain Reload Profiling: 3612ms
+	BeginReloadAssembly (227ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (149ms)
-	RebuildNativeTypeToScriptingClass (47ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (1003ms)
-		LoadAssemblies (640ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (1266ms)
+		LoadAssemblies (641ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (493ms)
-			TypeCache.Refresh (401ms)
-				TypeCache.ScanAssembly (366ms)
-			BuildScriptInfoCaches (70ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (3504ms)
+		AnalyzeDomain (714ms)
+			TypeCache.Refresh (571ms)
+				TypeCache.ScanAssembly (524ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1904ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3088ms)
+		SetupLoadedEditorAssemblies (1616ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (945ms)
-			ProcessInitializeOnLoadAttributes (1680ms)
-			ProcessInitializeOnLoadMethodAttributes (437ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (362ms)
+			ProcessInitializeOnLoadAttributes (940ms)
+			ProcessInitializeOnLoadMethodAttributes (300ms)
 			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (2ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -225,19 +225,147 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 1.19 seconds
-Refreshing native plugins compatible for Editor in 11.78 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6911 unused Assets / (2.0 MB). Loaded Objects now: 7740.
-Memory consumption went from 146.5 MB to 144.6 MB.
-Total: 92.496875 ms (FindLiveObjects: 10.218000 ms CreateObjectMapping: 1.979583 ms MarkObjects: 70.720750 ms  DeleteObjects: 9.374750 ms)
+Unloading 6912 unused Assets / (4.7 MB). Loaded Objects now: 7741.
+Memory consumption went from 146.7 MB to 142.0 MB.
+Total: 19.680041 ms (FindLiveObjects: 1.424583 ms CreateObjectMapping: 0.468291 ms MarkObjects: 12.852667 ms  DeleteObjects: 4.104334 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10217.017777 seconds.
-  path: Assets/Scripts/Comunes/SoundManager.cs
-  artifactKey: Guid(e0101d8bb37ac4bcc800d5c5f125ac71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Comunes/SoundManager.cs using Guid(e0101d8bb37ac4bcc800d5c5f125ac71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16e7917fe875015e66f7bf343f2ae3f3') in 0.334132625 seconds
+  Time since last request: 13752.592619 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Sprites/ui-large-buttons-horizontal.png
+  artifactKey: Guid(3d2ceb4de2a713147abc06da178fec62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/OArielG/2DSimpleUIPack/Sprites/ui-large-buttons-horizontal.png using Guid(3d2ceb4de2a713147abc06da178fec62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '929949de9678f87a2283459eb8a37746') in 0.456995875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Art/bicho popup.png
+  artifactKey: Guid(fa25ef825145b471882b3f87cafa8a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/bicho popup.png using Guid(fa25ef825145b471882b3f87cafa8a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72928b1fb162c08ec0ff9393d94bb6d7') in 0.180512583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Scripts/Minijuego 1/CariciasManagerEscena2.cs
+  artifactKey: Guid(9a9994cbfe3a64dc290b2062f1158d80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Minijuego 1/CariciasManagerEscena2.cs using Guid(9a9994cbfe3a64dc290b2062f1158d80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26d7d6a6ec69260fe22739b6e6fd0c18') in 0.00689875 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Scenes/GameCurse/0- Menus/SettingsMenu.unity
+  artifactKey: Guid(63c4914a0f87a4f7396164e2bcc6a06b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/GameCurse/0- Menus/SettingsMenu.unity using Guid(63c4914a0f87a4f7396164e2bcc6a06b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84b1715fe2aaf3c17558d591d34fc045') in 0.014404792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Art/bicho popup.png
+  artifactKey: Guid(fa25ef825145b471882b3f87cafa8a96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/bicho popup.png using Guid(fa25ef825145b471882b3f87cafa8a96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed37a5a441547ff1994e57a4188a82c1') in 0.022643666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Scripts/Minijuego 1/AbrirPopUp.cs
+  artifactKey: Guid(18c6bae97ca194c05a2eae3da07d0015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Minijuego 1/AbrirPopUp.cs using Guid(18c6bae97ca194c05a2eae3da07d0015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c33b0983606004e3f76326c026672d57') in 0.005143375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Scripts/Minijuego 1/TargetManagerEscena2.cs
+  artifactKey: Guid(c7e3f5d6452cd4aa6a089655ee06cd77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Minijuego 1/TargetManagerEscena2.cs using Guid(c7e3f5d6452cd4aa6a089655ee06cd77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a831e7c93fa66c922f9042248f43bced') in 0.004935166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/OArielG/2DSimpleUIPack
+  artifactKey: Guid(e9c2ca3562ef90747a22c97cf2fda6c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/OArielG/2DSimpleUIPack using Guid(e9c2ca3562ef90747a22c97cf2fda6c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0f97fb8a57378436b38629769bb6d29') in 0.005247583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/eyes.png
+  artifactKey: Guid(e631b42732f2745708119a33ef03a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/eyes.png using Guid(e631b42732f2745708119a33ef03a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b3d1a2c1df7f57cc7fa62085141d6c') in 0.023570416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Scenes/GameCurse/0- Menus/MainMenu.unity
+  artifactKey: Guid(ddd8b1f1806794241b36551cc0513f03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/GameCurse/0- Menus/MainMenu.unity using Guid(ddd8b1f1806794241b36551cc0513f03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9fdf5d25e68989e612296f0b9562b68') in 0.010045917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Art/bicho pequeño.png
+  artifactKey: Guid(8157b942ec36d4c618ba1bad8c9f469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/bicho pequeño.png using Guid(8157b942ec36d4c618ba1bad8c9f469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4aa8bc847e07e6ecd4d25caec1da1876') in 0.022684792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Art/minijuego 1.png
+  artifactKey: Guid(330a04044a644480ab9fc45eec225da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/minijuego 1.png using Guid(330a04044a644480ab9fc45eec225da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e67d4484f852284c21a9b3bbc1911a2f') in 0.016230833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.415241 seconds.
+  path: Assets/Scenes/GameCurse/1- Prologo/Escena 3.unity
+  artifactKey: Guid(1c4524dde925446db9585084bf2e43b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameCurse/1- Prologo/Escena 3.unity using Guid(1c4524dde925446db9585084bf2e43b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '555d2a938d457a626411efea86189359') in 0.002301417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.966159 seconds.
+  path: Assets/Art/eyes.png
+  artifactKey: Guid(e631b42732f2745708119a33ef03a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/eyes.png using Guid(e631b42732f2745708119a33ef03a7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d04b881ce282176e06e64db38a50c91') in 0.034810416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.797178 seconds.
+  path: Assets/Art/eyes.png
+  artifactKey: Guid(e631b42732f2745708119a33ef03a7b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/eyes.png using Guid(e631b42732f2745708119a33ef03a7b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b079bc473002c5ee2c101f8277ced94f') in 0.009944916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.871174 seconds.
+  path: Assets/Scenes/GameCurse/1- Prologo/Escena 3.unity
+  artifactKey: Guid(1c4524dde925446db9585084bf2e43b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/GameCurse/1- Prologo/Escena 3.unity using Guid(1c4524dde925446db9585084bf2e43b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ca9e9d198d619715e55004dc1aff2af') in 0.026597083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.315113 seconds.
+  path: Assets/Scenes/GameCurse/1- Prologo/Escena 3.unity
+  artifactKey: Guid(1c4524dde925446db9585084bf2e43b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/GameCurse/1- Prologo/Escena 3.unity using Guid(1c4524dde925446db9585084bf2e43b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ece4cc4d09b4b2912f39c0a4ded40a96') in 0.017648292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
