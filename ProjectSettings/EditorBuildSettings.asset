@@ -18,6 +18,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Minijuegos (Templates)/Minijuego 4.unity
     guid: fa480586fe6084be5b854a31f356fea2
   - enabled: 1
+    path: Assets/Scenes/GameCurse/MainScene.unity
+    guid: 82419fc0d97594c588857faee1bb5f52
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/0- Menus/MainMenu.unity
+    guid: ddd8b1f1806794241b36551cc0513f03
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/0- Menus/SettingsMenu.unity
+    guid: 63c4914a0f87a4f7396164e2bcc6a06b
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/0- Menus/ControlesMenu.unity
+    guid: 42cb76c26f7614b9cb25fccb02ed3111
+  - enabled: 1
     path: Assets/Scenes/GameCurse/1- Prologo/Escena 1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
