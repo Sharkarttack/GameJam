@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9b366989b4e440719c389ecd1402adc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClipsManager
-  clip: {fileID: 8300000, guid: 14db68e2f329a410ab154effee562582, type: 3}
+  clip: {fileID: 8300000, guid: 7a2048a431b664189889cc0c2a855212, type: 3}
 --- !u!4 &1058704307
 Transform:
   m_ObjectHideFlags: 0

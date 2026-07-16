@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 0501075f57070b595a5e5f7642770c4315151d2b7471243329701e6be4b2326d
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 005503025650500c580f0d2046775e434e154c787b7070642b794e36b0b96c6a
-      flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 5252005357010d5f08575e7744770914144e4d7279787e642f2f4f36b6b33668
-      flags: 0
-    RecentlyUsedSceneGuid-3:
       value: 550257525c045d5a5d08547511775947454e4e7b7a7c23622f2a1e65e3b0623a
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-1:
       value: 5709055301050b0a0b0c592641775a401315402f2f7a71352b2d4f64e4e4356c
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-2:
       value: 5050555154575d090f5c5d7749770c16474f4b737c787f612f7e4c6be1e2616d
       flags: 0
-    RecentlyUsedSceneGuid-6:
-      value: 5b520d0503545b0d0c0c0a2715770748154f4d2c7d7d7e627a7d4a35b4e1646a
+    RecentlyUsedSceneGuid-3:
+      value: 525406530154505e5f5b592712775d474e154f2c7e7827677e714f61b3b6633c
       flags: 0
-    RecentlyUsedSceneGuid-7:
+    RecentlyUsedSceneGuid-4:
       value: 0755505e07040f0a555e5a7549770d4447154b7c797d77332e794862b1e6646b
       flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-5:
       value: 5b0300575c530a0b09575b7749775c454e4f407f7b2e273528781f31b7e6616a
       flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5102030555560d59080d5e7441775912144f197278712031787f4c66b3b7616e
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 5252005357010d5f08575e7744770914144e4d7279787e642f2f4f36b6b33668
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 0706025e01020a09095f5d2041770816434f4f7a792c7f637c794e30b1e1633b
+      flags: 0
     RecentlyUsedSceneGuid-9:
-      value: 525406530154505e5f5b592712775d474e154f2c7e7827677e714f61b3b6633c
+      value: 5b520d0503545b0d0c0c0a2715770748154f4d2c7d7d7e627a7d4a35b4e1646a
       flags: 0
     lightmappingBakingProfile:
       value: 57

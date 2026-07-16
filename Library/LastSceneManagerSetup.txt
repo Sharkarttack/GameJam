@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/GameCurse/Parte 3/Escena 31.unity
+- path: Assets/Scenes/GameCurse/1- Prologo/Escena 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

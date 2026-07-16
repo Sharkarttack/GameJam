@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class CinematicManager : MonoBehaviour
 {
     [SerializeField] private string nextScene;
+    [SerializeField] private float wait = 3;
     private bool canChange = false;
     void Start()
     {
@@ -13,11 +14,9 @@ public class CinematicManager : MonoBehaviour
     }
     private IEnumerator CambiarEscena()
     {
-        print("Charging Scene");
         AsyncOperation async = SceneManager.LoadSceneAsync(nextScene);
         async.allowSceneActivation = false;
         yield return new WaitUntil(CanChangeScene);
-        print("Changing Scene");
         async.allowSceneActivation = true;
     }
 
@@ -27,9 +26,7 @@ public class CinematicManager : MonoBehaviour
     }
     private IEnumerator prueba()
     {
-        print("Start");
-        yield return new WaitForSeconds(3f);
-        print("Change");
+        yield return new WaitForSeconds(wait);
         canChange = true;
     }
 }
