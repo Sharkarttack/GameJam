@@ -167,8 +167,8 @@ MonoBehaviour:
     y: 0
     width: 1041.5
     height: 468
-  m_MinSize: {x: 101, y: 126}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 112
+  controlID: 117
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -399,7 +399,7 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 56994
+  m_LastSelectedObjectID: 37742
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1504,7 +1504,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -8.268684, y: 0.13726105, z: -0.12055084}
     speed: 2
-    m_Value: {x: -8.257492, y: 0.12159788, z: -0.120307714}
+    m_Value: {x: -8.268684, y: 0.13726105, z: -0.12055084}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1556,7 +1556,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 16.23257
     speed: 2
-    m_Value: 16.208258
+    m_Value: 16.23257
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1632,45 +1632,12 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 50452
+      - m_Data: 37742
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -87934
-      - m_Data: -87770
-      - m_Data: -87606
-      - m_Data: -87442
-      - m_Data: -87278
-      - m_Data: -86682
-      - m_Data: -86518
-      - m_Data: -86132
-      - m_Data: -85968
-      - m_Data: -85804
-      - m_Data: -84908
-      - m_Data: -84744
-      - m_Data: -84580
-      - m_Data: -68266
-      - m_Data: -68102
-      - m_Data: -67938
-      - m_Data: -67774
-      - m_Data: -67602
-      - m_Data: -67436
-      - m_Data: -15294
-      - m_Data: -15130
-      - m_Data: -5672
-      - m_Data: -5508
-      - m_Data: -5344
-      - m_Data: -3700
-      - m_Data: -3536
-      - m_Data: -3372
-      - m_Data: -3206
-      - m_Data: -2636
-      - m_Data: -1974
-      - m_Data: 50772
-      - m_Data: 50846
-      - m_Data: 50876
-      - m_Data: 50904
-      - m_Data: 51604
+      - m_Data: -1942
+      - m_Data: -1314
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1745,7 +1712,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 2
     m_Folders:
-    - Assets/Scenes/GameCurse/Parte 1
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1755,7 +1722,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Scenes/GameCurse/Parte 1
+  - Assets/Scripts
   m_LastFoldersGridSize: 56
   m_LastProjectPath: /Users/oriolcortes/Desktop/Fork/GameJam
   m_LockTracker:
@@ -1764,33 +1731,31 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 49642
+    - m_Data: 49384
     m_LastClickedID:
-      m_Data: 49642
+      m_Data: 49384
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49290
-    - m_Data: 49292
-    - m_Data: 49294
-    - m_Data: 49296
-    - m_Data: 49298
-    - m_Data: 49300
-    - m_Data: 49302
-    - m_Data: 49304
-    - m_Data: 49306
-    - m_Data: 49308
-    - m_Data: 49310
-    - m_Data: 49314
-    - m_Data: 49316
-    - m_Data: 49318
-    - m_Data: 49320
-    - m_Data: 49322
-    - m_Data: 49324
-    - m_Data: 49634
+    - m_Data: 48998
+    - m_Data: 49000
+    - m_Data: 49002
+    - m_Data: 49004
+    - m_Data: 49006
+    - m_Data: 49008
+    - m_Data: 49010
+    - m_Data: 49012
+    - m_Data: 49014
+    - m_Data: 49016
+    - m_Data: 49020
+    - m_Data: 49022
+    - m_Data: 49024
+    - m_Data: 49026
+    - m_Data: 49028
+    - m_Data: 49030
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Animaciones
-      m_OriginalName: Animaciones
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1798,10 +1763,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 49698
+        m_Data: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 11}
@@ -1819,24 +1784,24 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49290
-    - m_Data: 49292
-    - m_Data: 49294
-    - m_Data: 49296
-    - m_Data: 49298
-    - m_Data: 49300
-    - m_Data: 49302
-    - m_Data: 49304
-    - m_Data: 49306
-    - m_Data: 49308
-    - m_Data: 49310
-    - m_Data: 49312
-    - m_Data: 49314
-    - m_Data: 49316
-    - m_Data: 49318
-    - m_Data: 49320
-    - m_Data: 49322
-    - m_Data: 49324
+    - m_Data: 48998
+    - m_Data: 49000
+    - m_Data: 49002
+    - m_Data: 49004
+    - m_Data: 49006
+    - m_Data: 49008
+    - m_Data: 49010
+    - m_Data: 49012
+    - m_Data: 49014
+    - m_Data: 49016
+    - m_Data: 49018
+    - m_Data: 49020
+    - m_Data: 49022
+    - m_Data: 49024
+    - m_Data: 49026
+    - m_Data: 49028
+    - m_Data: 49030
+    - m_Data: 49032
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1864,9 +1829,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 50452
-    m_LastClickedInstanceID: 50452
-    m_HadKeyboardFocusLastEvent: 1
+    - m_Data: 37742
+    m_LastClickedInstanceID: 37742
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 72930
     - m_Data: 49082
@@ -1902,7 +1867,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 671.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 56
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 167.5
@@ -2141,7 +2106,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 426.90234
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

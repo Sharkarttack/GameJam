@@ -13,6 +13,7 @@ public class InteractablePolvos : InteractableObject
     /// Se utiliza para desplazar el objeto mediante el sistema de físicas. 
     /// </summary>
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Sprite sprite;
 
     /// <summary> 
     /// Se ejecuta mientras el jugador interactúa con el recipiente. 
@@ -42,6 +43,7 @@ public class InteractablePolvos : InteractableObject
         if (isSelected && other.gameObject.GetComponent<BottleState>() is BottleState)
         {
             other.gameObject.GetComponent<BottleState>().polvos = true;
+            other.gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
         }
     }
 

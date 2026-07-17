@@ -487,6 +487,7 @@
 "Assets/Scripts/Minijuego 2/GrifoFeature.cs"
 "Assets/Scripts/Minijuego 2/InteractableBottle.cs"
 "Assets/Scripts/Minijuego 2/InteractablePolvos.cs"
+"Assets/Scripts/Minijuego 2/InteractableVaso.cs"
 "Assets/Scripts/Minijuego 3/CatchManagerEscena4.cs"
 "Assets/Scripts/Minijuego 3/Esquina.cs"
 "Assets/Scripts/Minijuego 3/MesaState.cs"

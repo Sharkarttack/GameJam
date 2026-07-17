@@ -371,9 +371,10 @@ GameObject:
   - component: {fileID: 606872388}
   - component: {fileID: 606872387}
   - component: {fileID: 606872390}
-  - component: {fileID: 606872389}
+  - component: {fileID: 606872392}
+  - component: {fileID: 606872391}
   m_Layer: 0
-  m_Name: Grifo
+  m_Name: Vaso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -453,18 +454,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &606872389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606872386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bfcf70db2a234bd39cead04df356f38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GrifoFeature
 --- !u!61 &606872390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -499,7 +488,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.03902054, y: -0.15608215}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -509,8 +498,51 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.8875237, y: 9.2723675}
   m_EdgeRadius: 0
+--- !u!50 &606872391
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606872386}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &606872392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606872386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bcc382aa92954d509e7fbc63b1f4cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableVaso
+  isSelected: 0
+  rb: {fileID: 606872391}
+  spriteB: {fileID: 8302337691171525092, guid: 54a76a54a8abf4ddc850c668efa281cc, type: 3}
+  spriteV: {fileID: 7745785306241844976, guid: 05139c175fba14098b5fdbddff955436, type: 3}
 --- !u!1 &790557031
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,8 +805,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
+  m_Offset: {x: 0.00000023841858, y: -0.03902054}
+  m_Size: {x: 4.745979, y: 9.257832}
   m_Direction: 0
 --- !u!114 &947705128
 MonoBehaviour:
@@ -789,6 +821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BottleState
   nextScene: Escena 7
+  sprite: {fileID: -5858682790066136413, guid: 2c44fd974614243eb8b7cf5ef35fe0d4, type: 3}
   polvos: 0
   agua: 0
   agitada: 0
@@ -936,7 +969,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.3511858, y: -0.74139166}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -946,7 +979,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 7.1652565, y: 7.47742}
   m_EdgeRadius: 0
 --- !u!50 &1198256030
 Rigidbody2D:
@@ -989,6 +1022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InteractablePolvos
   isSelected: 0
   rb: {fileID: 1198256030}
+  sprite: {fileID: -4955875386686679797, guid: 824932ea749a040e396c0d2ceed250b1, type: 3}
 --- !u!1 &1475845257
 GameObject:
   m_ObjectHideFlags: 0

@@ -78,6 +78,7 @@
     <Compile Include="Assets/Scripts/Minijuego 5/LimpiarSuciedad.cs" />
     <Compile Include="Assets/Scripts/Minijuego 3/Esquina.cs" />
     <Compile Include="Assets/Scripts/Minijuego 2/CatchManagerEscena3.cs" />
+    <Compile Include="Assets/Scripts/Minijuego 2/InteractableVaso.cs" />
     <Compile Include="Assets/Scripts/Comunes/MainScene.cs" />
     <Compile Include="Assets/Scripts/Minijuego 8/IntrusiveThougth.cs" />
     <Compile Include="Assets/Scripts/Minijuego 6/Pomo.cs" />

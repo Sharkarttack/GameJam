@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 public class BottleState : MonoBehaviour
 {
     [SerializeField] private string nextScene;
+    [SerializeField] private Sprite sprite;
     /// <summary> 
     /// Indica si se han añadido los polvos al biberón. 
     /// </summary>
@@ -33,6 +34,10 @@ public class BottleState : MonoBehaviour
         if (polvos && agua && agitada)
         {
             endMiniGame();
+        }
+        else if (polvos && agua)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
         }
     }
 
