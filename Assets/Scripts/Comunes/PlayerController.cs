@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private  Animator playerAnimator;
-    
+    [SerializeField] private  AudioSource pasos;
     // Velocidad de movimiento del jugador (configurable desde el Inspector)
     [SerializeField] private float speed;
     // Referencia al Rigidbody2D del jugador para aplicar el movimiento
@@ -45,6 +45,15 @@ public class PlayerController : MonoBehaviour
         else if (direction.x > 0)
         {
             playerAnimator.SetInteger("Direction", 2);
+        }
+        if(context.canceled)
+        {
+            playerAnimator.SetInteger("Direction",0);
+            pasos.Stop();
+        }
+        else if (!pasos.isPlaying)
+        {
+            pasos.Play();
         }
     }
 

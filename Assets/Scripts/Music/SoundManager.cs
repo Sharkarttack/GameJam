@@ -7,6 +7,6 @@ public class SoundManager : MonoBehaviour
 
     public void ControlVolumen(float volumenSlider)
     {
-        audioMixer.SetFloat("VolumenMusica", Mathf.Log10(volumenSlider)*20);
+        audioMixer.SetFloat("Volumen", Mathf.Log10(volumenSlider)*20);
     }
 }
