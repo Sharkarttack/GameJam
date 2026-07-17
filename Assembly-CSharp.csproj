@@ -74,6 +74,7 @@
     <Compile Include="Assets/Scripts/Minijuego 2/GrifoFeature.cs" />
     <Compile Include="Assets/Scripts/Comunes/InteractableObject.cs" />
     <Compile Include="Assets/Scripts/Minijuego 2/BottleState.cs" />
+    <Compile Include="Assets/Scripts/Comunes/Aparicion.cs" />
     <Compile Include="Assets/Scripts/Minijuego 4/InteractablePanal.cs" />
     <Compile Include="Assets/Scripts/Minijuego 5/LimpiarSuciedad.cs" />
     <Compile Include="Assets/Scripts/Minijuego 3/Esquina.cs" />
