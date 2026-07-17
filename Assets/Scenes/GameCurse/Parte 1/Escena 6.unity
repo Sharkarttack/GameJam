@@ -822,6 +822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BottleState
   nextScene: Escena 7
   sprite: {fileID: -5858682790066136413, guid: 2c44fd974614243eb8b7cf5ef35fe0d4, type: 3}
+  spriteCompleto: {fileID: -4955875386686679797, guid: 824932ea749a040e396c0d2ceed250b1, type: 3}
   polvos: 0
   agua: 0
   agitada: 0

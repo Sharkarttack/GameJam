@@ -11,6 +11,7 @@ public class BottleState : MonoBehaviour
 {
     [SerializeField] private string nextScene;
     [SerializeField] private Sprite sprite;
+    [SerializeField] private Sprite spriteCompleto;
     /// <summary> 
     /// Indica si se han añadido los polvos al biberón. 
     /// </summary>
@@ -33,6 +34,7 @@ public class BottleState : MonoBehaviour
     {
         if (polvos && agua && agitada)
         {
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteCompleto;
             endMiniGame();
         }
         else if (polvos && agua)

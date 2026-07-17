@@ -27,9 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/GameCurse/0- Menus/SettingsMenu.unity
     guid: 63c4914a0f87a4f7396164e2bcc6a06b
   - enabled: 1
-    path: Assets/Scenes/GameCurse/0- Menus/ControlesMenu.unity
-    guid: 42cb76c26f7614b9cb25fccb02ed3111
-  - enabled: 1
     path: Assets/Scenes/GameCurse/1- Prologo/Escena 1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -44,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameCurse/Parte 1/Escena 5.unity
     guid: 4815d0b1fb5d14e0eb8ec27efd27fda4
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 5.1.unity
+    guid: ac6b5a17f8ece4ebaae1f254ca89ee2c
   - enabled: 1
     path: Assets/Scenes/GameCurse/Parte 1/Escena 6.unity
     guid: ece6a4583cab54ee98c5439d8b478eb8
@@ -70,13 +70,13 @@ EditorBuildSettings:
     guid: 58bcc35ae7c374f04ae096916bc3aedf
   - enabled: 1
     path: Assets/Scenes/GameCurse/Parte 1/Escena 14.unity
-    guid: 1a56f04bc3b5e4bcfa2dd04d03728677
+    guid: 031dca351c82a49d88e491a8e52428b6
   - enabled: 1
     path: Assets/Scenes/GameCurse/Parte 1/Escena 15.unity
     guid: 4bfb52fcafa7b41adb9145e0313225c9
   - enabled: 1
     path: Assets/Scenes/GameCurse/Parte 1/Escena 16.unity
-    guid: b72ad6253eab54656bc6787d88cfb6f3
+    guid: 17f52506b35774fd68a403352e9d3119
   - enabled: 1
     path: Assets/Scenes/GameCurse/Parte 1/Escena 17.unity
     guid: 52eac71caee36407f97a7f8fb71c4adf
