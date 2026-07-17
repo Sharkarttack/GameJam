@@ -44,5 +44,8 @@ TagManager:
   - name: Resaltar
     uniqueID: 2561627317
     locked: 0
+  - name: Player
+    uniqueID: 4091297501
+    locked: 0
   m_RenderingLayers:
   - Default

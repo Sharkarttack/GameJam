@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CinematicManager
   nextScene: Escena 13
-  wait: 1.5
+  wait: 3
 --- !u!4 &129468222
 Transform:
   m_ObjectHideFlags: 0
