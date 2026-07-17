@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CinematicManager
   nextScene: Escena 11
-  wait: 3
+  wait: 1.5
 --- !u!4 &129468222
 Transform:
   m_ObjectHideFlags: 0
@@ -262,7 +262,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 0c5eca94a7c214a57b75d894086164ee, type: 3}
+  m_Sprite: {fileID: 3411899871245805358, guid: b0300e8d49d3c45fb95ea39d21caff86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

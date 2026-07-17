@@ -44,6 +44,7 @@ public class InteractablePolvos : InteractableObject
         {
             other.gameObject.GetComponent<BottleState>().polvos = true;
             other.gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+            transform.GetChild(0).gameObject.SetActive(false);
         }
     }
 

@@ -46,6 +46,7 @@ public class InteractableVaso : InteractableObject
             other.gameObject.GetComponent<BottleState>().agua = true;
             gameObject.GetComponent<SpriteRenderer>().sprite = spriteV;
             other.gameObject.GetComponent<SpriteRenderer>().sprite = spriteB;
+            transform.GetChild(0).gameObject.SetActive(false);
         }
     }
 }

@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339870a16bd424313b9cba06dab7a8df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LimpiarSuciedad
-  nextScene: Escena 14
+  nextScene: Escena 13.1
   mouse: {fileID: 1820193353}
   cam: {fileID: 1800757065}
   brushSize: 50

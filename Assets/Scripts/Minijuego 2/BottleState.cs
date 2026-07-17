@@ -35,11 +35,14 @@ public class BottleState : MonoBehaviour
         if (polvos && agua && agitada)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = spriteCompleto;
+            transform.GetChild(1).gameObject.SetActive(false);
             endMiniGame();
         }
         else if (polvos && agua)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+            transform.GetChild(0).gameObject.SetActive(false);
+            transform.GetChild(1).gameObject.SetActive(true);
         }
     }
 

@@ -69,6 +69,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GameCurse/Parte 1/Escena 13.unity
     guid: 58bcc35ae7c374f04ae096916bc3aedf
   - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 1/Escena 13.1.unity
+    guid: e676d4d9365854670b6914e73da61b07
+  - enabled: 1
     path: Assets/Scenes/GameCurse/Parte 1/Escena 14.unity
     guid: 031dca351c82a49d88e491a8e52428b6
   - enabled: 1
@@ -116,6 +119,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameCurse/Parte 3/Escena 29.unity
     guid: 1ee1727eab92c4bb396be0e8d5d0c11e
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 3/Escena 30.unity
+    guid: 97bbf07c2ee67400db0b920f85eeffa3
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 3/Escena 31.unity
+    guid: f70f3208ed32b4ab1b4d1d9380c3c25f
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Parte 3/Escena 32.unity
+    guid: 1e25da9e255eb4b78b7f20a73822167d
+  - enabled: 1
+    path: Assets/Scenes/GameCurse/Creditos.unity
+    guid: 87673f20f97a84a9284226be696ce27a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
