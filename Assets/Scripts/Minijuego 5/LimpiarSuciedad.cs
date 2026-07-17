@@ -113,7 +113,7 @@ public class LimpiarSuciedad : MonoBehaviour
                 alphaPixels++;
             }
         }
-        if(alphaPixels >= 36000)
+        if(alphaPixels >= 2359240)
         {
             return true;
         }
