@@ -14,7 +14,7 @@ public class InteractableVaso : InteractableObject
     /// </summary>
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Sprite spriteB;
-     [SerializeField] private Sprite spriteV;
+    [SerializeField] private Sprite spriteV;
 
     /// <summary> 
     /// Se ejecuta mientras el jugador interactúa con el recipiente. 
@@ -44,6 +44,13 @@ public class InteractableVaso : InteractableObject
         if (isSelected && other.gameObject.GetComponent<BottleState>() is BottleState)
         {
             other.gameObject.GetComponent<BottleState>().agua = true;
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteV;
+            other.gameObject.GetComponent<SpriteRenderer>().sprite = spriteB;
+            transform.GetChild(0).gameObject.SetActive(false);
+        }
+        else if (isSelected && other.gameObject.GetComponent<Batidora>() is Batidora)
+        {
+            other.gameObject.GetComponent<Batidora>().Agua = true;
             gameObject.GetComponent<SpriteRenderer>().sprite = spriteV;
             other.gameObject.GetComponent<SpriteRenderer>().sprite = spriteB;
             transform.GetChild(0).gameObject.SetActive(false);

@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 5608555106075d0e0f565423137709434e4f1d2e2d7071347f704a66b5b73260
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 56045603030c5a0b5f5f0e72497707434f4e197e7f2c73677b2a4930b2b6306b
-      flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 5553000750570d09580b0a7041770d1546164e7c78792568282f486bb3b33668
-      flags: 0
-    RecentlyUsedSceneGuid-3:
       value: 5b5203565254595f5e5c0e2640775c404e161b2f297e24337c784d61b7b16568
       flags: 0
-    RecentlyUsedSceneGuid-4:
-      value: 5001525107505a5a5f0d087147770c46404f4e29792d73652b2d1836b6b2636b
-      flags: 0
-    RecentlyUsedSceneGuid-5:
-      value: 0100065253060c5f5c565d2746775b4615151a282a7074632e7c4c35b2b76069
-      flags: 0
-    RecentlyUsedSceneGuid-6:
+    RecentlyUsedSceneGuid-1:
       value: 525406530154505e5f5b592712775d474e154f2c7e7827677e714f61b3b6633c
       flags: 0
-    RecentlyUsedSceneGuid-7:
+    RecentlyUsedSceneGuid-2:
       value: 5050555154575d090f5c5d7749770c16474f4b737c787f612f7e4c6be1e2616d
       flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-3:
       value: 5709055301050b0a0b0c592641775a401315402f2f7a71352b2d4f64e4e4356c
       flags: 0
-    RecentlyUsedSceneGuid-9:
+    RecentlyUsedSceneGuid-4:
       value: 5b06025156535b0b0b575b2348775e49444f4c787e7e24357b704b30e7b26339
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5001525107505a5a5f0d087147770c46404f4e29792d73652b2d1836b6b2636b
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 0652515004015c035e0d0d2045775a154f4f1b7f787b7f34752b4964bae53660
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 0100065253060c5f5c565d2746775b4615151a282a7074632e7c4c35b2b76069
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 01055255540c500f0e580d744277071115151b782e2d75322e7c4832b4b13160
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 5254515752075e5e0c0c557013775d12454e4e2829782368297c1963e1b1653d
       flags: 0
     lightmappingBakingProfile:
       value: 57

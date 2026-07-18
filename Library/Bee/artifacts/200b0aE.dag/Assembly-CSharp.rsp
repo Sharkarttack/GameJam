@@ -511,6 +511,7 @@
 "Assets/Scripts/Minijuego 8/BotonBatidora.cs"
 "Assets/Scripts/Minijuego 8/CatchManagerEscena8.cs"
 "Assets/Scripts/Minijuego 8/IntrusiveThougth.cs"
+"Assets/Scripts/Minijuego 8/Tapa.cs"
 "Assets/Scripts/Music/ClipsManager.cs"
 "Assets/Scripts/Music/MusicaControllerEscenas.cs"
 "Assets/Scripts/Music/SoundManager.cs"
