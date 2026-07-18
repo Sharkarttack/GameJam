@@ -6,6 +6,6 @@ public class MenuButton : MonoBehaviour
     [SerializeField] private string nextScene;
     public void OnClick()
     {
-        SceneManager.LoadScene(nextScene);
+        SceneManager.LoadSceneAsync(nextScene);
     }
 }

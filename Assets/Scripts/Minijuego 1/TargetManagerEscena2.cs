@@ -66,9 +66,5 @@ public class TargetManagerEscena2 : InteractableObject
     {
         newTarget.SetActive(true);
         gameObject.SetActive(false);
-        /* // Inicia el minijuego de caricias
-        cariciasManager.startMimos();
-        // Desactiva el collider para impedir nuevas interacciones
-        this.GetComponent<Collider2D>().enabled = false; */
     }
 }

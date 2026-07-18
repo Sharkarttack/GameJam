@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed;
     // Referencia al Rigidbody2D del jugador para aplicar el movimiento
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private BichoCaminado bichoCaminado;
     // Dirección de movimiento obtenida desde el Input System
     private Vector2 direction;
     // Referencia al objeto interactuable que está dentro del rango del jugador
@@ -62,6 +63,10 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void move()
     {
+        if(bichoCaminado != null)
+        {
+            bichoCaminado.moveBicho(direction.x);
+        }
         rb.linearVelocity = direction * speed;
     }
 

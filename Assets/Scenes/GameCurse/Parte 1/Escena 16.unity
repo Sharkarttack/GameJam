@@ -751,6 +751,7 @@ MonoBehaviour:
   pasos: {fileID: 124190694}
   speed: 5
   rb: {fileID: 811110183}
+  bichoCaminado: {fileID: 0}
 --- !u!70 &811110185
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

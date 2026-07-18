@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class LimpiarSuciedad : MonoBehaviour
 {
     [SerializeField] private string nextScene;
+    [SerializeField] private ParticleSystem burbujas;
     public MouseManager mouse;
     public Camera cam;
     public int brushSize = 20;
@@ -45,6 +46,7 @@ public class LimpiarSuciedad : MonoBehaviour
     {
         if (!mouse.isDragging)
         {
+            burbujas.Stop();
             return;
         }
         Vector2 mouseWorld = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
@@ -54,6 +56,7 @@ public class LimpiarSuciedad : MonoBehaviour
         // Solo limpia si el ratón está sobre el collider
         if (!col.OverlapPoint(mouseWorld))
         {
+            burbujas.Stop();
             return;
         }
 
@@ -73,7 +76,7 @@ public class LimpiarSuciedad : MonoBehaviour
         // Convertimos a píxeles dentro de la textura
         int pixelX = Mathf.RoundToInt(x * sprite.rect.width);
         int pixelY = Mathf.RoundToInt(y * sprite.rect.height);
-
+        burbujas.Play();
         BorrarTextura(pixelX, pixelY);
     }
     void BorrarTextura(int x, int y)

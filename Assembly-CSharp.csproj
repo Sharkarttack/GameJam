@@ -69,6 +69,7 @@
     <Compile Include="Assets/Scripts/Minijuego 8/BotonBatidora.cs" />
     <Compile Include="Assets/Scripts/Music/MusicaControllerEscenas.cs" />
     <Compile Include="Assets/Scripts/Minijuego 4/Papelera.cs" />
+    <Compile Include="Assets/Scripts/Comunes/Button.cs" />
     <Compile Include="Assets/Scripts/Menus/MenuButton.cs" />
     <Compile Include="Assets/Scripts/Minijuego 5/MouseManager.cs" />
     <Compile Include="Assets/Scripts/Minijuego 2/GrifoFeature.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets/Scripts/Minijuego 2/InteractableVaso.cs" />
     <Compile Include="Assets/Scripts/Comunes/MainScene.cs" />
     <Compile Include="Assets/Scripts/Minijuego 8/IntrusiveThougth.cs" />
+    <Compile Include="Assets/Scripts/BichoCaminado.cs" />
     <Compile Include="Assets/Scripts/Minijuego 6/Pomo.cs" />
     <Compile Include="Assets/Scripts/Minijuego 7/Spots.cs" />
     <Compile Include="Assets/Scripts/Minijuego 3/PosicionarEsquinas.cs" />

@@ -19,7 +19,7 @@ public class PopUpCariciasEscena2 : InteractableObject
         IEnumerator parapPrr()
         {
             yield return new WaitForSeconds(Time.deltaTime + 0.01f);
-            prrGatito.Stop();
+            prrGatito.Pause();
         }
         if (Mouse.current.leftButton.IsPressed() && isShaking())
         {
