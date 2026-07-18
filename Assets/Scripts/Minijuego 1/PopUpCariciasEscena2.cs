@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,22 +11,37 @@ public class PopUpCariciasEscena2 : InteractableObject
     // Referencia al gestor del minijuego de caricias
     [SerializeField] private CariciasManagerEscena2 cariciasManager;
     [SerializeField] private ParticleSystem corazones;
+    [SerializeField] private AudioSource prrGatito;
     public float goalSpeed;
     private Vector2 lastMousePos;
     void Update()
     {
-        if(Mouse.current.leftButton.IsPressed() && isShaking())
+        IEnumerator parapPrr()
         {
-            
+            yield return new WaitForSeconds(Time.deltaTime + 0.01f);
+            prrGatito.Stop();
+        }
+        if (Mouse.current.leftButton.IsPressed() && isShaking())
+        {
+            StopCoroutine(parapPrr());
+            StopAllCoroutines();
             corazones.Play();
+            if (!prrGatito.isPlaying)
+            {
+                prrGatito.Play();
+            }
             cariciasManager.hacerMimos();
         }
         else
         {
+            if (prrGatito.isPlaying)
+            {
+                StartCoroutine(parapPrr());
+            }
             corazones.Stop();
         }
     }
-    
+
     ///<summary>
     /// Se ejecuta cuando el jugador interactúa con el pop-up
     /// </summary>
