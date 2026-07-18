@@ -1150,7 +1150,7 @@ SpriteRenderer:
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1032888662517477482, guid: 61ac70490ba0a4424a25c0726dbea706, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7372549, g: 0.7372549, b: 0.7372549, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1393,6 +1393,7 @@ MonoBehaviour:
   isSelected: 0
   rb: {fileID: 1819176387}
   sprite: {fileID: 9114848585861589211, guid: b111bfd6056b741079a37eb014ccf384, type: 3}
+  spriteP: {fileID: -2803050851978450346, guid: efd722e57e1714bcf87a509646059b33, type: 3}
 --- !u!61 &1819176386
 BoxCollider2D:
   m_ObjectHideFlags: 0

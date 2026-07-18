@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class Spots : InteractableObject
 {
     [SerializeField] private string nextScene;
+    [SerializeField] private GameObject text;
     public bool Escondite = false;
     public override void OnInteract()
     {
@@ -13,7 +14,7 @@ public class Spots : InteractableObject
         }
         else
         {
-            print("no parece estar aqui");
+            text.SetActive(true);
         }
     }
 }

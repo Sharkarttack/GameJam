@@ -14,7 +14,7 @@ public class InteractablePolvos : InteractableObject
     /// </summary>
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Sprite sprite;
-
+    [SerializeField] private Sprite spriteP;
     /// <summary> 
     /// Se ejecuta mientras el jugador interactúa con el recipiente. 
     /// Convierte la posición actual del cursor desde coordenadas de 
@@ -44,6 +44,7 @@ public class InteractablePolvos : InteractableObject
         {
             other.gameObject.GetComponent<BottleState>().polvos = true;
             other.gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteP;
             transform.GetChild(0).gameObject.SetActive(false);
         }
     }

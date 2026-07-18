@@ -7,6 +7,7 @@ public class MouseControllerEscena7 : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     // Referencia al objeto interactuable que está bajo el cursor
     private InteractableObject interactableTarget;
+    [SerializeField] private GameObject text;
     /// <summary>
     /// Se ejecuta a intervalos fijos, ideal para el movimiento del Rigidbody
     /// </summary>
@@ -24,9 +25,13 @@ public class MouseControllerEscena7 : MonoBehaviour
     /// <param name="context"></param>
     public void OnMouseClick(InputAction.CallbackContext context)
     {
-        // Si acaba de comenzar el clic y hay un objeto interactuable...
-        if (context.started && interactableTarget != null)
+        if(context.started && text.activeSelf)
         {
+            text.SetActive(false);
+        } 
+        else if (context.started && interactableTarget != null)
+        {
+            // Si acaba de comenzar el clic y hay un objeto interactuable...
             interactableTarget.OnInteract();
         }
     }
