@@ -671,7 +671,6 @@ GameObject:
   - component: {fileID: 732235053}
   - component: {fileID: 732235051}
   - component: {fileID: 732235054}
-  - component: {fileID: 732235055}
   m_Layer: 5
   m_Name: Start_Button
   m_TagString: Untagged
@@ -776,19 +775,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuButton
   nextScene: Escena 1
---- !u!114 &732235055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732235049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3783038004a8a49b987f539a2e37013c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  audioPop: {fileID: 0}
 --- !u!1 &795240229
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,8 +859,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 795240234}
-        m_TargetAssemblyTypeName: Button, Assembly-CSharp
-        m_MethodName: OnClick
+        m_TargetAssemblyTypeName: QuitGame, Assembly-CSharp
+        m_MethodName: SalirDelJuego
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -901,10 +887,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 795240229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3783038004a8a49b987f539a2e37013c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3326c326226c14a51b4595c9c18f5725, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  audioPop: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::QuitGame
 --- !u!1 &843513168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,7 +1539,6 @@ GameObject:
   - component: {fileID: 1640937322}
   - component: {fileID: 1640937325}
   - component: {fileID: 1640937323}
-  - component: {fileID: 1640937327}
   - component: {fileID: 1640937326}
   m_Layer: 5
   m_Name: Settings_Button
@@ -1660,19 +1644,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuButton
   nextScene: SettingsMenu
---- !u!114 &1640937327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640937321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3783038004a8a49b987f539a2e37013c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Button
-  audioPop: {fileID: 0}
 --- !u!1 &1809007658
 GameObject:
   m_ObjectHideFlags: 0

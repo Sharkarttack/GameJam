@@ -1049,13 +1049,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1349357387}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1349357392}
+        m_TargetAssemblyTypeName: QuitGame, Assembly-CSharp
+        m_MethodName: SalirDelJuego
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1078,10 +1078,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1349357387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f634a3f3bca954d4cb9bf98da85ac875, type: 3}
+  m_Script: {fileID: 11500000, guid: 3326c326226c14a51b4595c9c18f5725, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButton
-  nextScene: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuitGame
 --- !u!1 &1707764219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,7 +1236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1738257429
 MonoBehaviour:
   m_ObjectHideFlags: 0

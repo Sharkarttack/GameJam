@@ -477,6 +477,7 @@
 "Assets/Scripts/Comunes/InteractableObject.cs"
 "Assets/Scripts/Comunes/MainScene.cs"
 "Assets/Scripts/Comunes/PlayerController.cs"
+"Assets/Scripts/Comunes/QuitGame.cs"
 "Assets/Scripts/Escena 1/CamaEscena1.cs"
 "Assets/Scripts/Menus/MenuButton.cs"
 "Assets/Scripts/Minijuego 1/AbrirPopUp.cs"
