@@ -1,0 +1,83 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CatchManagerEscena2">
+			<method name="OnMouseClick"/>
+		</type>
+		<type fullname="CatchManagerEscena3">
+			<method name="OnMouseClick"/>
+			<method name="OnMouseClick"/>
+		</type>
+		<type fullname="CatchManagerEscena4">
+			<method name="OnMouseClick"/>
+		</type>
+		<type fullname="CatchManagerEscena5">
+			<method name="OnMouseClick"/>
+		</type>
+		<type fullname="CatchManagerEscena6">
+			<method name="OnMouseClick"/>
+		</type>
+		<type fullname="CatchManagerEscena8">
+			<method name="OnMouseClick"/>
+		</type>
+		<type fullname="MenuButton">
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+			<method name="OnClick"/>
+		</type>
+		<type fullname="MouseControllerEscena7">
+			<method name="OnMouseClick"/>
+		</type>
+		<type fullname="MouseManager">
+			<method name="OnMouseClick"/>
+		</type>
+		<type fullname="PlayerController">
+			<method name="OnInteract"/>
+			<method name="OnInteract"/>
+			<method name="OnInteract"/>
+			<method name="OnInteract"/>
+			<method name="OnInteract"/>
+			<method name="OnInteract"/>
+			<method name="OnMove"/>
+			<method name="OnMove"/>
+			<method name="OnMove"/>
+			<method name="OnMove"/>
+			<method name="OnMove"/>
+			<method name="OnMove"/>
+		</type>
+		<type fullname="QuitGame">
+			<method name="SalirDelJuego"/>
+			<method name="SalirDelJuego"/>
+		</type>
+		<type fullname="SoundManager">
+			<method name="ControlVolumen"/>
+			<method name="ControlVolumen"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
+			<method name="OnAction"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+</linker>
